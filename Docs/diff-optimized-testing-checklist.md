@@ -543,6 +543,7 @@ Sleep reduced from 50ms to 1ms.
 - [ ] Primary: py-cpuinfo (need console logs to verify method)
 - [ ] Fallback 1: `PROCESSOR_IDENTIFIER` environment variable
 - [ ] Fallback 2: WMI `Win32_Processor`
+  > ℹ️ **To verify method:** Run non-dev build with DEBUG logging enabled, or temporarily change `logger.debug()` to `logger.info()` in `_get_cpu_brand_string()`
 
 ### 🍎 macOS
 - [x] CPU brand detected successfully
@@ -556,6 +557,7 @@ Sleep reduced from 50ms to 1ms.
 - [ ] Primary: py-cpuinfo (need console logs to verify method)
 - [ ] Fallback 1: `/proc/cpuinfo` → "model name"
 - [ ] Fallback 2: `lscpu` → "Model name"
+  > ℹ️ **To verify method:** Run non-dev build with DEBUG logging enabled, or temporarily change `logger.debug()` to `logger.info()` in `_get_cpu_brand_string()`
 
 ---
 
