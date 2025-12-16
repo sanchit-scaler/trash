@@ -1,0 +1,896 @@
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:08
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Starting Taggr Application
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Python version: 3.12.12 (main, Nov 19 2025, 22:43:30) [MSC v.1944 64 bit (AMD64)]
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Platform: win32
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Checking for existing application instance
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [single_instance.py:130] - Lock file created: C:\Users\Dell\AppData\Local\Temp\.taggr.lock (PID: 18416)
+2025-12-17 00:00:08 - taggr.single_instance - INFO - [single_instance.py:215] - Single instance lock acquired successfully
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Single instance check passed - proceeding with startup
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Windows platform detected - checking administrator privileges
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - Running with administrator privileges
+2025-12-17 00:00:08 - taggr - INFO - [logger.py:137] - ⏱ Elevation check took 0.00s
+2025-12-17 00:00:09 - taggr - INFO - [logger.py:137] - ⏱ QApplication init took 0.16s
+2025-12-17 00:00:10 - taggr - INFO - [logger.py:137] - ⏱ Splash screen displayed in 1.12s
+2025-12-17 00:00:10 - taggr - INFO - [logger.py:137] - ⏱ Monitor check took 0.00s
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:10
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:10
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:10 - taggr.startup.system_requirements - INFO - [system_requirements.py:688] - Evaluating system requirements...
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:00:11
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - Starting Taggr Application
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - Python version: 3.12.12 (main, Nov 19 2025, 22:43:30) [MSC v.1944 64 bit (AMD64)]
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - Platform: win32
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - Checking for existing application instance
+2025-12-17 00:00:11 - taggr.single_instance - WARNING - [single_instance.py:159] - Another instance is already running (PID: 18416)
+2025-12-17 00:00:11 - taggr.single_instance - WARNING - [single_instance.py:218] - Another instance of the application is already running
+2025-12-17 00:00:11 - taggr - INFO - [logger.py:137] - Another instance of Taggr is already running
+2025-12-17 00:00:16 - taggr - INFO - [logger.py:137] - Application startup cancelled - another instance detected
+2025-12-17 00:00:17 - taggr.startup.system_requirements - ERROR - [system_requirements.py:699] -   CPU: fail - Intel Core i3 is below minimum tier (requires i5 or better)
+2025-12-17 00:00:17 - taggr.startup.system_requirements - INFO - [system_requirements.py:699] -   RAM: pass - System has 7.7 GB RAM (sufficient)
+2025-12-17 00:00:17 - taggr.startup.system_requirements - INFO - [system_requirements.py:699] -   Disk I/O: pass - Disk I/O test passed
+2025-12-17 00:00:17 - taggr.startup.system_requirements - INFO - [system_requirements.py:699] -   Power: pass - System is plugged in
+2025-12-17 00:00:17 - taggr.startup.system_requirements - ERROR - [system_requirements.py:713] - System requirements check FAILED: 1 requirement(s) not met
+2025-12-17 00:00:19 - taggr.startup.system_requirements - ERROR - [system_requirements.py:775] - Application startup cancelled - system requirements not met
+2025-12-17 00:00:19 - taggr.startup.system_requirements - ERROR - [system_requirements.py:777] -   - CPU: Intel Core i3 is below minimum tier (requires i5 or better)
+2025-12-17 00:00:19 - taggr.main - ERROR - [main.py:142] - Application startup cancelled - system requirements not met
+2025-12-17 00:00:19 - taggr.single_instance - INFO - [single_instance.py:141] - Lock file removed: C:\Users\Dell\AppData\Local\Temp\.taggr.lock
+2025-12-17 00:25:55 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:25:55 - taggr - INFO - [logger.py:88] - New session started - 2025-12-17 00:25:55
+2025-12-17 00:25:55 - taggr - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:25:55 - taggr - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:25:55 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:25:55
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:25:55
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: False
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:25:55 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:19
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Starting Taggr Application
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Python version: 3.12.12 (main, Nov 19 2025, 22:43:30) [MSC v.1944 64 bit (AMD64)]
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Platform: win32
+2025-12-17 00:27:19 - taggr - DEBUG - [logger.py:132] - Command line args: ['C:\\Users\\Dell\\Downloads\\Taggr-dev-v1.4.5.exe']
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Checking for existing application instance
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [single_instance.py:130] - Lock file created: C:\Users\Dell\AppData\Local\Temp\.taggr.lock (PID: 14272)
+2025-12-17 00:27:19 - taggr.single_instance - INFO - [single_instance.py:215] - Single instance lock acquired successfully
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Single instance check passed - proceeding with startup
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Windows platform detected - checking administrator privileges
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - Running with administrator privileges
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - ⏱ Elevation check took 0.01s
+2025-12-17 00:27:19 - taggr.main - DEBUG - [main.py:95] - Initializing QApplication
+2025-12-17 00:27:19 - taggr - INFO - [logger.py:137] - ⏱ QApplication init took 0.21s
+2025-12-17 00:27:21 - taggr - INFO - [logger.py:137] - ⏱ Splash screen displayed in 1.11s
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:21
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:21
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.monitor_check - WARNING - [monitor_check.py:91] - Monitor check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-17 00:27:21 - taggr.startup.monitor_check - WARNING - [monitor_check.py:95] - Multiple monitors may cause coordinate capture issues!
+2025-12-17 00:27:21 - taggr - INFO - [logger.py:137] - ⏱ Monitor check took 0.00s
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:21
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:21
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:21 - taggr.startup.system_requirements - WARNING - [system_requirements.py:681] - System requirements check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-17 00:27:22 - taggr - INFO - [logger.py:137] - ⏱ Hardware requirements check took 1.01s
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:22
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:22
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:22 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:24 - taggr - INFO - [logger.py:137] - ⏱ Permission checks took 2.11s
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:25
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:25
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:25 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_dialog.py:823] - Checking authentication requirement
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_dialog.py:833] - Calling /api/auth/me to verify authentication (attempt 1/3)
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:tnuELkJ_enlUONviWrPMVMmqsWXI2lx9.TGrrzlUFxYfCikKCYt7Sco/MqJ2sXR2r7flmQg3TFkg'}
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: Sanchit Wadehra
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_dialog.py:836] - Session exists, verifying with API...
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:tnuELkJ_enlUONviWrPMVMmqsWXI2lx9.TGrrzlUFxYfCikKCYt7Sco/MqJ2sXR2r7flmQg3TFkg'}
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-17 00:27:25 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: Sanchit Wadehra
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_dialog.py:841] - Authentication valid, profile complete
+2025-12-17 00:27:25 - taggr.auth - INFO - [auth_dialog.py:843] - User settings - Resolution: None, FPS: None
+2025-12-17 00:27:25 - taggr - INFO - [logger.py:137] - ⏱ Authentication check took 0.24s
+2025-12-17 00:27:25 - taggr - INFO - [logger.py:137] - Authenticated as: sanchit.wadehra@scaler.com
+2025-12-17 00:27:26 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-17 00:27:26 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-17 00:27:26 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:26
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:26
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:26 - taggr.project_dialog - INFO - [project_dialog.py:173] - Loading projects for selection dialog
+2025-12-17 00:27:26 - taggr.auth - INFO - [auth_client.py:908] - Fetching projects (status=active, include_configs=True)
+2025-12-17 00:27:26 - taggr.auth - INFO - [auth_client.py:924] - Retrieved 2 project(s) from API
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:30
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:30
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [app.py:1167] - Initializing MainInterface
+2025-12-17 00:27:30 - taggr.maininterface - DEBUG - [app.py:1169] - Creating system tray icon
+2025-12-17 00:27:30 - taggr.maininterface - DEBUG - [app.py:1182] - Initializing tray menu
+2025-12-17 00:27:30 - taggr.maininterface - DEBUG - [app.py:1185] - Initializing main window
+2025-12-17 00:27:30 - taggr.maininterface - DEBUG - [app.py:1188] - Initializing floating control panel
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:30
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:30
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [control_panel.py:239] - API video settings: resolution=1920x1080, fps=30
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [control_panel.py:512] - Resolution set from API: 1920x1080
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [control_panel.py:537] - FPS set from API: 30
+2025-12-17 00:27:30 - taggr.controlpanel - INFO - [control_panel.py:246] - Floating control panel initialized
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [app.py:1253] - Floating control panel displayed
+2025-12-17 00:27:30 - taggr.maininterface - INFO - [app.py:1191] - MainInterface initialized
+2025-12-17 00:27:30 - taggr - INFO - [logger.py:137] - ⏱ MainInterface init took 0.07s
+2025-12-17 00:27:31 - taggr.controlpanel - INFO - [control_panel.py:853] - Windows screen recording exclusion configured
+2025-12-17 00:27:31 - taggr.maininterface - INFO - [app.py:1305] - Auto-fetch task assignment requested
+2025-12-17 00:27:31 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-17 00:27:31 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-17 00:27:31 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:31
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:31
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:31 - taggr.maininterface - INFO - [app.py:1337] - Auto-fetch task assignment started in background (non-blocking)
+2025-12-17 00:27:31 - taggr.task_assignment - INFO - [app.py:994] - Requesting task (previous: none, project_id: 1)
+2025-12-17 00:27:31 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:27:31 - taggr.auth - INFO - [auth_client.py:789] - Requesting task assignment (previous: none)
+2025-12-17 00:27:31 - taggr - INFO - [logger.py:137] - ⏱ TOTAL STARTUP TIME: 12.33s
+2025-12-17 00:27:31 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-17 00:27:31 - taggr.main - INFO - [main.py:232] - Control panel is primary UI
+2025-12-17 00:27:31 - taggr.main - INFO - [main.py:255] - Starting application event loop
+2025-12-17 00:27:32 - taggr.auth - INFO - [auth_client.py:826] - Task assigned successfully: mac_keynote_add_slide_numbers_status_brief (3b85e1f5-e580-4477-8904-dfa1b0056b48)
+2025-12-17 00:27:32 - taggr.task_assignment - INFO - [app.py:1007] - Task assigned: mac_keynote_add_slide_numbers_status_brief (3b85e1f5-e580-4477-8904-dfa1b0056b48)
+2025-12-17 00:27:32 - taggr.maininterface - INFO - [app.py:1370] - Task assigned: mac_keynote_add_slide_numbers_status_brief (3b85e1f5-e580-4477-8904-dfa1b0056b48)
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1331] - Task data keys: ['task_id', 'task_uuid', 'task_slug', 'task_instruction', 'operating_system', 'applicant_id', 'project_id', 'attachments', 'expires_at', 'last_assigned_at', 'created_at', 'updated_at', 'application_id', 'qr_code_url', 'seconds_until_expiry']
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1332] - Task slug: mac_keynote_add_slide_numbers_status_brief, QR code URL: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/3b85e1f5-e580-4477-8904-dfa1b0056b48/mac_keynote_add_slide_numbers_status_brief.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T185730Z&X-Amz-Expires=604800&X-Amz-Signature=ff62ee84140a66b1d04da519d633a8842a9477463e43d4781a4e83c0e039b1de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject, Seconds until expiry: None
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1346] - QR code URL found: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/3b85e1f5-e580-4477-8904-dfa1b0056b48/mac_keynote_add_slide_numbers_status_brief.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T185730Z&X-Amz-Expires=604800&X-Amz-Signature=ff62ee84140a66b1d04da519d633a8842a9477463e43d4781a4e83c0e039b1de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:32
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:32
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1641] - QR code download started in background QThread (non-blocking)
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [control_panel.py:53] - Loading QR code from URL: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/3b85e1f5-e580-4477-8904-dfa1b0056b48/mac_keynote_add_slide_numbers_status_brief.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T185730Z&X-Amz-Expires=604800&X-Amz-Signature=ff62ee84140a66b1d04da519d633a8842a9477463e43d4781a4e83c0e039b1de&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1365] - Displaying task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:27:32 - taggr.control_panel - INFO - [control_panel.py:74] - QR code downloaded: 3885 bytes
+2025-12-17 00:27:32 - taggr.controlpanel - INFO - [control_panel.py:1655] - QR code data received: 3885 bytes
+2025-12-17 00:27:33 - taggr.controlpanel - INFO - [control_panel.py:1667] - QR code pixmap created: 512x512
+2025-12-17 00:27:33 - taggr.controlpanel - INFO - [control_panel.py:1688] - ✓ QR code loaded and displayed successfully
+2025-12-17 00:27:37 - taggr.controlpanel - INFO - [control_panel.py:909] - Start recording requested from control panel
+2025-12-17 00:27:37 - taggr.maininterface - INFO - [app.py:1695] - Starting new recording
+2025-12-17 00:27:37 - taggr.controlpanel - INFO - [control_panel.py:1182] - Control panel showing 'Starting...' state
+2025-12-17 00:27:37 - taggr.maininterface - DEBUG - [app.py:1725] - Natural scrolling (auto-detected): False
+2025-12-17 00:27:37 - taggr.maininterface - INFO - [app.py:1730] - Recording settings: 1920x1080 @ 30fps
+2025-12-17 00:27:37 - taggr.maininterface - INFO - [app.py:1739] - Recording for task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [recorder_factory.py:35] - Creating recorder for platform: Windows
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [recorder_factory.py:36] - Resolution: 1920x1080, FPS: 30
+2025-12-17 00:27:37 - taggr.recorder.factory - INFO - [recorder_factory.py:84] - Using Recorder (pynput-based) for Windows
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.recorder - DEBUG - [recorder.py:653] - Recordings directory: C:\Users\Dell\Documents\Taggr_Recordings
+2025-12-17 00:27:37 - taggr.recorder - DEBUG - [recorder.py:662] - Creating recording directory: C:\Users\Dell\Documents\Taggr_Recordings\recording-2025-12-17_00-27-37
+2025-12-17 00:27:37 - taggr.recorder - INFO - [recorder.py:62] - Recorder initialized successfully (deferred heavy initialization to thread)
+2025-12-17 00:27:37 - taggr.maininterface - INFO - [app.py:1772] - Recording initialization started
+2025-12-17 00:27:37 - taggr.recorder - INFO - [recorder.py:375] - Recorder process priority elevated for low latency
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:37
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:37 - taggr.metadata - DEBUG - [metadata.py:38] - Desktop dimensions via GetSystemMetrics: 1600x900
+2025-12-17 00:27:37 - taggr.metadata - DEBUG - [metadata.py:119] - Screen: 1600x900, Video: 1920x1080
+2025-12-17 00:27:37 - taggr.metadata - DEBUG - [metadata.py:120] - Letterbox mapping: scale=1.2000, pad=(0, 0), scaled_size=1920x1080
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:342] - ✓ Native Windows Desktop Duplication API available - will use hardware monotonic timestamps
+2025-12-17 00:27:38 - taggr.screen_recorder - DEBUG - [screen_recorder.py:196] - Found bundled ffmpeg at: C:\Users\Dell\AppData\Local\Temp\_MEI124522\binaries\ffmpeg.exe
+2025-12-17 00:27:38 - taggr.screen_recorder - DEBUG - [screen_recorder.py:197] - ffmpeg permissions: 0o100777
+2025-12-17 00:27:38 - taggr.screen_recorder - DEBUG - [screen_recorder.py:231] - Returning bundled ffmpeg path: C:\Users\Dell\AppData\Local\Temp\_MEI124522\binaries\ffmpeg.exe
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:373] - Initializing screen recorder for Windows
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:374] - Target resolution: 1920x1080 (1920x1080)
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:375] - Target FPS: 30
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:379] - Using native Desktop Duplication API for hardware-level timestamp synchronization
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:893] - Starting Windows screen recording
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:897] - Using native Desktop Duplication API for hardware-level timestamp sync
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.cursor_capture - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.cursor_capture - DEBUG - [windows_screen_recorder.py:126] - Cursor capture initialized
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:845] - Initializing native Windows screen recorder
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:846] - Target resolution: 1920x1080 @ 30fps
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:847] - Output file: C:\Users\Dell\Documents\Taggr_Recordings\recording-2025-12-17_00-27-37\video.mp4
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:850] - ✓ Media Foundation available for native encoding
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1456] - Starting native Windows screen recording
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1457] - Using Desktop Duplication API for capture (hardware timestamps)
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:88] - New session started - 2025-12-17 00:27:38
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_timer - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:27:38 - taggr.windows_timer - DEBUG - [windows_screen_recorder.py:63] - Windows timer resolution set to 1ms for accurate frame timing
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1481] - Using ffmpeg encoder (primary path for Windows)
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1340] - Frame writer thread started (ffmpeg VFR)
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:948] - Frame capture thread started (calculated sync mode)
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:961] - dxcam started at 30fps (video_mode=True)
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:979] - ✓ Video anchor set: 1605054.518 ms (1600x900)
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1363] - ffmpeg VFR: 1600x900 -> 1920x1080
+2025-12-17 00:27:38 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1501] - ✓ Native Windows screen recording started
+2025-12-17 00:27:38 - taggr.screen_recorder - INFO - [screen_recorder.py:909] - ✓ Native Windows recording started successfully
+2025-12-17 00:27:39 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:30 queue:29
+2025-12-17 00:27:39 - taggr.maininterface - INFO - [app.py:2549] - Recording started successfully
+2025-12-17 00:27:39 - taggr.controlpanel - INFO - [control_panel.py:1238] - Hiding control panel during recording
+2025-12-17 00:27:40 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:60 queue:59
+2025-12-17 00:27:41 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:90 queue:63
+2025-12-17 00:27:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:120 queue:63
+2025-12-17 00:27:43 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:150 queue:63
+2025-12-17 00:27:44 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:180 queue:63
+2025-12-17 00:27:45 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:210 queue:63
+2025-12-17 00:27:46 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:240 queue:63
+2025-12-17 00:27:47 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:270 queue:63
+2025-12-17 00:27:48 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:300 queue:63
+2025-12-17 00:27:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:330 queue:63
+2025-12-17 00:27:50 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:360 queue:66
+2025-12-17 00:27:51 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:390 queue:76
+2025-12-17 00:27:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:420 queue:99
+2025-12-17 00:27:53 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:450 queue:127
+2025-12-17 00:27:54 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:480 queue:157
+2025-12-17 00:27:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:510 queue:186
+2025-12-17 00:27:56 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:540 queue:214
+2025-12-17 00:27:57 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:570 queue:243
+2025-12-17 00:27:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:600 queue:248
+2025-12-17 00:27:59 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:630 queue:255
+2025-12-17 00:28:00 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:660 queue:279
+2025-12-17 00:28:01 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:690 queue:305
+2025-12-17 00:28:02 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:720 queue:327
+2025-12-17 00:28:03 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:750 queue:321
+2025-12-17 00:28:04 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:780 queue:329
+2025-12-17 00:28:05 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:810 queue:302
+2025-12-17 00:28:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:840 queue:250
+2025-12-17 00:28:07 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:870 queue:193
+2025-12-17 00:28:08 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:900 queue:143
+2025-12-17 00:28:09 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:930 queue:95
+2025-12-17 00:28:10 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:960 queue:63
+2025-12-17 00:28:11 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:990 queue:69
+2025-12-17 00:28:12 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1020 queue:63
+2025-12-17 00:28:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1050 queue:63
+2025-12-17 00:28:14 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1080 queue:63
+2025-12-17 00:28:15 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1110 queue:63
+2025-12-17 00:28:16 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1140 queue:63
+2025-12-17 00:28:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1170 queue:63
+2025-12-17 00:28:18 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1200 queue:63
+2025-12-17 00:28:19 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1230 queue:63
+2025-12-17 00:28:20 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1260 queue:63
+2025-12-17 00:28:21 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1290 queue:63
+2025-12-17 00:28:22 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1320 queue:63
+2025-12-17 00:28:23 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1350 queue:63
+2025-12-17 00:28:24 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1380 queue:63
+2025-12-17 00:28:25 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1410 queue:63
+2025-12-17 00:28:26 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1440 queue:63
+2025-12-17 00:28:27 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1470 queue:63
+2025-12-17 00:28:28 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1500 queue:63
+2025-12-17 00:28:29 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1530 queue:63
+2025-12-17 00:28:30 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1560 queue:63
+2025-12-17 00:28:31 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1590 queue:63
+2025-12-17 00:28:32 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1620 queue:68
+2025-12-17 00:28:33 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1650 queue:92
+2025-12-17 00:28:34 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1680 queue:122
+2025-12-17 00:28:35 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1710 queue:125
+2025-12-17 00:28:36 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1740 queue:120
+2025-12-17 00:28:37 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1770 queue:122
+2025-12-17 00:28:38 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1800 queue:113
+2025-12-17 00:28:39 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1830 queue:108
+2025-12-17 00:28:40 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1860 queue:95
+2025-12-17 00:28:41 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1890 queue:84
+2025-12-17 00:28:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1920 queue:63
+2025-12-17 00:28:43 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1950 queue:63
+2025-12-17 00:28:44 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:1980 queue:63
+2025-12-17 00:28:45 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2010 queue:63
+2025-12-17 00:28:46 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2040 queue:65
+2025-12-17 00:28:47 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2070 queue:63
+2025-12-17 00:28:48 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2100 queue:66
+2025-12-17 00:28:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2130 queue:92
+2025-12-17 00:28:50 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2160 queue:121
+2025-12-17 00:28:51 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2190 queue:143
+2025-12-17 00:28:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2220 queue:127
+2025-12-17 00:28:53 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2250 queue:103
+2025-12-17 00:28:54 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2280 queue:74
+2025-12-17 00:28:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2310 queue:63
+2025-12-17 00:28:56 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2340 queue:83
+2025-12-17 00:28:57 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2370 queue:113
+2025-12-17 00:28:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2400 queue:142
+2025-12-17 00:28:59 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2430 queue:172
+2025-12-17 00:29:00 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2460 queue:178
+2025-12-17 00:29:01 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2490 queue:161
+2025-12-17 00:29:02 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2520 queue:111
+2025-12-17 00:29:03 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2550 queue:63
+2025-12-17 00:29:04 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2580 queue:63
+2025-12-17 00:29:05 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2610 queue:67
+2025-12-17 00:29:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2640 queue:73
+2025-12-17 00:29:07 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2670 queue:98
+2025-12-17 00:29:08 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2700 queue:122
+2025-12-17 00:29:09 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2730 queue:145
+2025-12-17 00:29:10 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2760 queue:144
+2025-12-17 00:29:11 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2790 queue:90
+2025-12-17 00:29:12 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2820 queue:87
+2025-12-17 00:29:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2850 queue:115
+2025-12-17 00:29:14 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2880 queue:133
+2025-12-17 00:29:15 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2910 queue:153
+2025-12-17 00:29:16 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2940 queue:147
+2025-12-17 00:29:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:2970 queue:108
+2025-12-17 00:29:18 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3000 queue:63
+2025-12-17 00:29:19 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3030 queue:63
+2025-12-17 00:29:20 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3060 queue:63
+2025-12-17 00:29:21 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3090 queue:63
+2025-12-17 00:29:22 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3120 queue:63
+2025-12-17 00:29:23 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3150 queue:69
+2025-12-17 00:29:24 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3180 queue:68
+2025-12-17 00:29:25 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3210 queue:63
+2025-12-17 00:29:26 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3240 queue:63
+2025-12-17 00:29:27 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3270 queue:70
+2025-12-17 00:29:28 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3300 queue:66
+2025-12-17 00:29:29 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3330 queue:63
+2025-12-17 00:29:30 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3360 queue:63
+2025-12-17 00:29:31 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3390 queue:63
+2025-12-17 00:29:32 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3420 queue:63
+2025-12-17 00:29:33 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3450 queue:63
+2025-12-17 00:29:34 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3480 queue:63
+2025-12-17 00:29:35 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3510 queue:63
+2025-12-17 00:29:36 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3540 queue:63
+2025-12-17 00:29:37 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3570 queue:63
+2025-12-17 00:29:38 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3600 queue:63
+2025-12-17 00:29:39 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3630 queue:63
+2025-12-17 00:29:40 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3660 queue:63
+2025-12-17 00:29:41 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3690 queue:70
+2025-12-17 00:29:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3720 queue:69
+2025-12-17 00:29:43 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3750 queue:65
+2025-12-17 00:29:44 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3780 queue:63
+2025-12-17 00:29:45 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3810 queue:64
+2025-12-17 00:29:46 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3840 queue:71
+2025-12-17 00:29:47 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3870 queue:63
+2025-12-17 00:29:48 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3900 queue:75
+2025-12-17 00:29:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3930 queue:77
+2025-12-17 00:29:50 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3960 queue:65
+2025-12-17 00:29:51 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:3990 queue:69
+2025-12-17 00:29:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4020 queue:91
+2025-12-17 00:29:53 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4050 queue:96
+2025-12-17 00:29:54 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4080 queue:125
+2025-12-17 00:29:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4110 queue:150
+2025-12-17 00:29:56 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4140 queue:153
+2025-12-17 00:29:57 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4170 queue:163
+2025-12-17 00:29:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4200 queue:145
+2025-12-17 00:29:59 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4230 queue:116
+2025-12-17 00:30:00 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4260 queue:78
+2025-12-17 00:30:01 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4290 queue:63
+2025-12-17 00:30:02 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4320 queue:63
+2025-12-17 00:30:03 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4350 queue:63
+2025-12-17 00:30:04 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4380 queue:63
+2025-12-17 00:30:05 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4410 queue:63
+2025-12-17 00:30:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4440 queue:63
+2025-12-17 00:30:07 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4470 queue:63
+2025-12-17 00:30:08 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4500 queue:63
+2025-12-17 00:30:09 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4530 queue:63
+2025-12-17 00:30:10 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4560 queue:63
+2025-12-17 00:30:11 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4590 queue:63
+2025-12-17 00:30:12 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4620 queue:63
+2025-12-17 00:30:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4650 queue:63
+2025-12-17 00:30:14 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4680 queue:63
+2025-12-17 00:30:15 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4710 queue:63
+2025-12-17 00:30:16 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4740 queue:63
+2025-12-17 00:30:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4770 queue:63
+2025-12-17 00:30:18 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4800 queue:63
+2025-12-17 00:30:19 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4830 queue:63
+2025-12-17 00:30:20 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4860 queue:63
+2025-12-17 00:30:21 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4890 queue:63
+2025-12-17 00:30:22 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4920 queue:63
+2025-12-17 00:30:23 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4950 queue:63
+2025-12-17 00:30:24 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:4980 queue:63
+2025-12-17 00:30:25 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5010 queue:63
+2025-12-17 00:30:26 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5040 queue:63
+2025-12-17 00:30:27 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5070 queue:63
+2025-12-17 00:30:28 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5100 queue:63
+2025-12-17 00:30:29 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5130 queue:63
+2025-12-17 00:30:30 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5160 queue:63
+2025-12-17 00:30:31 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5190 queue:63
+2025-12-17 00:30:32 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5220 queue:63
+2025-12-17 00:30:33 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5250 queue:63
+2025-12-17 00:30:34 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5280 queue:63
+2025-12-17 00:30:35 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5310 queue:63
+2025-12-17 00:30:36 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5340 queue:63
+2025-12-17 00:30:37 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5370 queue:64
+2025-12-17 00:30:38 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5400 queue:93
+2025-12-17 00:30:39 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5430 queue:111
+2025-12-17 00:30:40 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5460 queue:82
+2025-12-17 00:30:41 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5490 queue:63
+2025-12-17 00:30:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5520 queue:63
+2025-12-17 00:30:43 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5550 queue:63
+2025-12-17 00:30:44 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5580 queue:63
+2025-12-17 00:30:45 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5610 queue:64
+2025-12-17 00:30:46 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5640 queue:88
+2025-12-17 00:30:47 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5670 queue:117
+2025-12-17 00:30:48 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5700 queue:124
+2025-12-17 00:30:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5730 queue:144
+2025-12-17 00:30:50 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5760 queue:136
+2025-12-17 00:30:51 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5790 queue:157
+2025-12-17 00:30:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5820 queue:187
+2025-12-17 00:30:53 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5850 queue:215
+2025-12-17 00:30:54 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5880 queue:241
+2025-12-17 00:30:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5910 queue:260
+2025-12-17 00:30:56 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5940 queue:287
+2025-12-17 00:30:57 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:5970 queue:316
+2025-12-17 00:30:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6000 queue:343
+2025-12-17 00:30:59 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6030 queue:373
+2025-12-17 00:31:00 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6060 queue:403
+2025-12-17 00:31:01 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6090 queue:432
+2025-12-17 00:31:04 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6120 queue:446
+2025-12-17 00:31:05 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6150 queue:437
+2025-12-17 00:31:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6180 queue:427
+2025-12-17 00:31:07 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6210 queue:403
+2025-12-17 00:31:08 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6240 queue:418
+2025-12-17 00:31:09 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6270 queue:447
+2025-12-17 00:31:12 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6300 queue:450
+2025-12-17 00:31:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6330 queue:442
+2025-12-17 00:31:15 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6360 queue:450
+2025-12-17 00:31:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6390 queue:450
+2025-12-17 00:31:20 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6420 queue:450
+2025-12-17 00:31:22 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6450 queue:450
+2025-12-17 00:31:27 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6510 queue:450
+2025-12-17 00:31:31 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6540 queue:450
+2025-12-17 00:31:32 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6570 queue:450
+2025-12-17 00:31:34 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6600 queue:449
+2025-12-17 00:31:35 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6630 queue:450
+2025-12-17 00:31:37 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6660 queue:450
+2025-12-17 00:31:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6690 queue:450
+2025-12-17 00:31:44 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6720 queue:450
+2025-12-17 00:31:48 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6750 queue:450
+2025-12-17 00:31:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6780 queue:450
+2025-12-17 00:31:51 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6810 queue:450
+2025-12-17 00:31:53 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6840 queue:450
+2025-12-17 00:31:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6870 queue:450
+2025-12-17 00:31:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6900 queue:450
+2025-12-17 00:32:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6960 queue:450
+2025-12-17 00:32:09 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:6990 queue:450
+2025-12-17 00:32:11 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7020 queue:450
+2025-12-17 00:32:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7050 queue:450
+2025-12-17 00:32:15 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7080 queue:450
+2025-12-17 00:32:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7110 queue:450
+2025-12-17 00:32:18 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7140 queue:450
+2025-12-17 00:32:23 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7170 queue:450
+2025-12-17 00:32:28 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7200 queue:450
+2025-12-17 00:32:31 - taggr.windows_screen_recorder - WARNING - [windows_screen_recorder.py:1020] - Frame queue saturated, encoder is falling behind
+2025-12-17 00:32:33 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7230 queue:450
+2025-12-17 00:32:38 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7260 queue:450
+2025-12-17 00:32:42 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7290 queue:450
+2025-12-17 00:32:46 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7320 queue:450
+2025-12-17 00:32:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7350 queue:450
+2025-12-17 00:32:57 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7380 queue:450
+2025-12-17 00:33:02 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7410 queue:450
+2025-12-17 00:33:08 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7440 queue:450
+2025-12-17 00:33:11 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7470 queue:447
+2025-12-17 00:33:12 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7500 queue:445
+2025-12-17 00:33:13 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7530 queue:448
+2025-12-17 00:33:17 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7560 queue:449
+2025-12-17 00:33:19 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7590 queue:446
+2025-12-17 00:33:20 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7620 queue:447
+2025-12-17 00:33:26 - taggr.windows_screen_recorder - WARNING - [windows_screen_recorder.py:1020] - Frame queue saturated, encoder is falling behind
+2025-12-17 00:33:27 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7650 queue:450
+2025-12-17 00:33:31 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7680 queue:450
+2025-12-17 00:33:40 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7710 queue:450
+2025-12-17 00:33:49 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7770 queue:450
+2025-12-17 00:33:52 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7800 queue:450
+2025-12-17 00:33:54 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7830 queue:450
+2025-12-17 00:33:55 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7860 queue:450
+2025-12-17 00:33:58 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7890 queue:450
+2025-12-17 00:33:59 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7920 queue:448
+2025-12-17 00:34:01 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7950 queue:446
+2025-12-17 00:34:02 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:7980 queue:449
+2025-12-17 00:34:03 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:8010 queue:443
+2025-12-17 00:34:04 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:8040 queue:438
+2025-12-17 00:34:06 - taggr.maininterface - INFO - [app.py:1774] - Stopping recording
+2025-12-17 00:34:06 - taggr.recorder - INFO - [recorder.py:595] - Stopping recording session
+2025-12-17 00:34:06 - taggr.recorder - INFO - [recorder.py:600] - Stop timestamp captured: 1992726.143 ms
+2025-12-17 00:34:06 - taggr.recorder - DEBUG - [recorder.py:607] - Ending metadata collection
+2025-12-17 00:34:06 - taggr.recorder - DEBUG - [recorder.py:613] - Stopping mouse listener
+2025-12-17 00:34:06 - taggr.recorder - DEBUG - [recorder.py:617] - Stopping keyboard listener
+2025-12-17 00:34:06 - taggr.recorder - INFO - [recorder.py:627] - Stopping screen recording
+2025-12-17 00:34:06 - taggr.windows_screen_recorder - DEBUG - [windows_screen_recorder.py:1025] - Capture stats - frames:8070 queue:450
+2025-12-17 00:34:06 - taggr.screen_recorder - INFO - [screen_recorder.py:537] - Stopping native Windows screen recording
+2025-12-17 00:34:06 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1518] - Stopping native Windows screen recording...
+2025-12-17 00:34:06 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1523] - Frames pending in queue at stop: 450
+2025-12-17 00:34:06 - taggr.recorder - INFO - [recorder.py:528] - Recording session ended. Total events: 5652, Filtered: 0
+2025-12-17 00:34:06 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1053] - Capture finished: 8071 frames, queue remaining: 449
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1430] - ffmpeg VFR finished: 7989 frames, 387.75s duration
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1538] - Recording summary:
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1539] -   Frames: 7989
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1541] -   Video duration: 387.75s (VFR, actual timestamps)
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - WARNING - [windows_screen_recorder.py:1546] - Frame queue stalled 82 times waiting for encoder
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1606] - Remuxing MKV (129.45 MB) to MP4...
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1619] - Capture duration: 387.749s, encoded duration before scaling: 266.300s
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - WARNING - [windows_screen_recorder.py:1627] - Duration mismatch detected: capture=387.75s vs encoded=266.30s (difference: 121.45s)
+2025-12-17 00:34:16 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1638] - Applying setpts scaling ratio 1.456062 to align durations
+2025-12-17 00:35:22 - taggr.windows_screen_recorder - INFO - [windows_screen_recorder.py:1683] - ✓ Remux successful! MP4: 145.64 MB
+2025-12-17 00:35:24 - taggr.recorder - DEBUG - [recorder.py:631] - Closing events file
+2025-12-17 00:35:24 - taggr.recorder - DEBUG - [recorder.py:637] - Calculating frame synchronization annotations
+2025-12-17 00:35:24 - taggr.recorder - DEBUG - [recorder.py:641] - Saving metadata
+2025-12-17 00:35:24 - taggr.recorder - INFO - [recorder.py:644] - Recording stopped successfully
+2025-12-17 00:35:24 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+2025-12-17 00:35:24 - taggr.maininterface - DEBUG - [app.py:1788] - Recording saved to: C:\Users\Dell\Documents\Taggr_Recordings\recording-2025-12-17_00-27-37
+2025-12-17 00:35:24 - taggr.maininterface - INFO - [app.py:1801] - Using task_slug for recording: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:35:25 - taggr.maininterface - INFO - [app.py:1955] - Successfully renamed recording to: C:\Users\Dell\Documents\Taggr_Recordings\mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:35:25 - taggr.maininterface - INFO - [app.py:2068] - Creating zip file: C:\Users\Dell\Documents\Taggr_Recordings\mac_keynote_add_slide_numbers_status_brief.zip
+2025-12-17 00:35:25 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_keynote_add_slide_numbers_status_brief\events.jsonl
+2025-12-17 00:35:25 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_keynote_add_slide_numbers_status_brief\metadata.json
+2025-12-17 00:35:25 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_keynote_add_slide_numbers_status_brief\video.log
+2025-12-17 00:35:33 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_keynote_add_slide_numbers_status_brief\video.mp4
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:2084] - Successfully created zip file: C:\Users\Dell\Documents\Taggr_Recordings\mac_keynote_add_slide_numbers_status_brief.zip
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:1844] - Recording zipped successfully: mac_keynote_add_slide_numbers_status_brief.zip
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:1849] - Starting automatic submission for task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:35:33 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-17 00:35:33 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-17 00:35:33 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-17 00:35:33
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-17 00:35:33
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:35:33 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:2192] - Submission worker started for task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:35:33 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+2025-12-17 00:35:33 - taggr.submission - INFO - [app.py:703] - Requesting presigned URL for task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:35:33 - taggr.auth - INFO - [auth_client.py:962] - Requesting presigned URL for task: mac_keynote_add_slide_numbers_status_brief, file: mac_keynote_add_slide_numbers_status_brief.zip
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Getting upload URL...
+2025-12-17 00:35:33 - taggr.auth - INFO - [auth_client.py:995] - Presigned URL received for task_id: 9834
+2025-12-17 00:35:33 - taggr.submission - INFO - [app.py:715] - Received presigned URL for task_id: 9834
+2025-12-17 00:35:33 - taggr.submission - INFO - [app.py:719] - Uploading file: C:\Users\Dell\Documents\Taggr_Recordings\mac_keynote_add_slide_numbers_status_brief.zip
+2025-12-17 00:35:33 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Uploading recording to S3...
+2025-12-17 00:35:33 - taggr.auth - INFO - [auth_client.py:1029] - Uploading file to S3: C:\Users\Dell\Documents\Taggr_Recordings\mac_keynote_add_slide_numbers_status_brief.zip (144.17 MB)
+2025-12-17 00:36:40 - taggr.auth - INFO - [auth_client.py:1048] - ✓ File uploaded successfully to S3
+2025-12-17 00:36:40 - taggr.submission - INFO - [app.py:722] - Upload to S3 completed successfully
+2025-12-17 00:36:40 - taggr.submission - INFO - [app.py:726] - Submitting recording for task_id: 9834
+2025-12-17 00:36:40 - taggr.auth - INFO - [auth_client.py:1100] - Submitting recording for task_id: 9834
+2025-12-17 00:36:40 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Finalizing submission...
+2025-12-17 00:36:43 - taggr.auth - INFO - [auth_client.py:1146] - ✓ Submission successful! ID: 188064
+2025-12-17 00:36:43 - taggr.auth - INFO - [auth_client.py:1153] - Quality checks: 15 passed, 0 failed
+2025-12-17 00:36:43 - taggr.submission - INFO - [app.py:933] - Simple checks passed for submission 188064; continuing deep checks in background.
+2025-12-17 00:36:43 - taggr.submission - INFO - [app.py:765] - Starting polling for submission 188064 (status=checks_running, interval=5s, max_polls=300)
+2025-12-17 00:36:43 - taggr.maininterface - INFO - [app.py:2339] - Simple checks passed; continuing deep checks in background.
+2025-12-17 00:36:43 - taggr.maininterface - INFO - [app.py:2285] - Submission result (initial) for task: mac_keynote_add_slide_numbers_status_brief
+2025-12-17 00:36:43 - taggr.maininterface - INFO - [app.py:2290] - Stored current submission_id: 188064
+2025-12-17 00:36:43 - taggr.submission - INFO - [app.py:810] - Poll timer started for submission 188064
+2025-12-17 00:36:44 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 1/300)
+2025-12-17 00:36:44 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:36:44 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:36:48 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 2/300)
+2025-12-17 00:36:48 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:36:48 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:36:53 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 3/300)
+2025-12-17 00:36:53 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:36:53 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:36:58 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 4/300)
+2025-12-17 00:36:58 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:36:58 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:02 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-17 00:37:02 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-17 00:37:02 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-17 00:37:02 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:03 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 5/300)
+2025-12-17 00:37:03 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:03 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:08 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 6/300)
+2025-12-17 00:37:08 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:08 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:13 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 7/300)
+2025-12-17 00:37:13 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:13 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:18 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 8/300)
+2025-12-17 00:37:18 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:18 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:23 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 9/300)
+2025-12-17 00:37:23 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:23 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:28 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 10/300)
+2025-12-17 00:37:28 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:28 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:33 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 11/300)
+2025-12-17 00:37:33 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:33 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:87] - ================================================================================
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:88] - New session started - 2025-12-17 00:37:35
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:88] - New session started - 2025-12-17 00:37:35
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:89] - Dev mode: True
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:90] - Logging to file: C:\Users\Dell\AppData\Local\Taggr\Logs\taggr.log
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:37:35 - taggr.util - INFO - [logger.py:91] - ================================================================================
+2025-12-17 00:37:35 - taggr.util - INFO - [util.py:58] - open_file() called with path: C:\Users\Dell\Documents\Taggr_Recordings
+2025-12-17 00:37:38 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 12/300)
+2025-12-17 00:37:38 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:38 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:43 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 13/300)
+2025-12-17 00:37:43 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:43 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:48 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 14/300)
+2025-12-17 00:37:48 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:48 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:53 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 15/300)
+2025-12-17 00:37:53 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:53 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:37:58 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 16/300)
+2025-12-17 00:37:58 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:37:58 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:03 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 17/300)
+2025-12-17 00:38:03 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:03 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:08 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 18/300)
+2025-12-17 00:38:08 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:08 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:13 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 19/300)
+2025-12-17 00:38:13 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:13 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:18 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 20/300)
+2025-12-17 00:38:18 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:18 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:23 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 21/300)
+2025-12-17 00:38:23 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:23 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:28 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 22/300)
+2025-12-17 00:38:28 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:28 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:33 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 23/300)
+2025-12-17 00:38:33 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:33 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:38 - taggr.submission - INFO - [app.py:826] - Polling submission 188064 (attempt 24/300)
+2025-12-17 00:38:38 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 188064
+2025-12-17 00:38:38 - taggr.submission - INFO - [app.py:834] - Poll result for submission 188064: status=checks_running, completed=15/17
+2025-12-17 00:38:40 - taggr.maininterface - INFO - [app.py:2317] - Submission dialog closed by user; stopping deep check polling.
+2025-12-17 00:38:40 - taggr.controlpanel - INFO - [control_panel.py:1721] - Cleared task display
+2025-12-17 00:38:40 - taggr.maininterface - INFO - [app.py:2302] - Cleared current task context after submission.
+2025-12-17 00:38:46 - taggr.maininterface - INFO - [app.py:1675] - Quitting application
+2025-12-17 00:38:46 - taggr.maininterface - INFO - [app.py:1683] - Closing control panel
+2025-12-17 00:38:46 - taggr.maininterface - INFO - [app.py:1686] - Exiting application
+2025-12-17 00:38:46 - taggr.main - INFO - [main.py:257] - Application exiting with code: 0
+2025-12-17 00:38:46 - taggr.single_instance - INFO - [single_instance.py:141] - Lock file removed: C:\Users\Dell\AppData\Local\Temp\.taggr.lock
+2025-12-17 00:38:46 - taggr.main - INFO - [main.py:261] - Single instance lock released
