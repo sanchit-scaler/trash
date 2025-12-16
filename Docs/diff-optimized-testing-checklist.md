@@ -536,21 +536,24 @@ Sleep reduced from 50ms to 1ms.
 **Source:** `taggr/startup/system_requirements.py` → `_get_cpu_brand_string()`
 
 ### 🪟 Windows
-- [ ] Primary: py-cpuinfo
+- [x] CPU brand detected successfully
+  > ✅ "11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz"
+- [ ] Primary: py-cpuinfo (need console logs to verify method)
 - [ ] Fallback 1: `PROCESSOR_IDENTIFIER` environment variable
 - [ ] Fallback 2: WMI `Win32_Processor`
-- [ ] Check console for detection method used
 
 ### 🍎 macOS
-- [ ] Primary: py-cpuinfo
+- [x] CPU brand detected successfully
+  > ✅ "Apple M1"
+- [ ] Primary: py-cpuinfo (need console logs to verify method)
 - [ ] Fallback: `sysctl -n machdep.cpu.brand_string`
-- [ ] Check console for detection method used
 
 ### 🐧 Linux
-- [ ] Primary: py-cpuinfo
+- [x] CPU brand detected successfully
+  > ✅ "11th Gen Intel(R) Core(TM) i3-1115G4 @ 3.00GHz"
+- [ ] Primary: py-cpuinfo (need console logs to verify method)
 - [ ] Fallback 1: `/proc/cpuinfo` → "model name"
 - [ ] Fallback 2: `lscpu` → "Model name"
-- [ ] Check console for detection method used
 
 ---
 
