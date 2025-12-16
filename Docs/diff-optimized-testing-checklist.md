@@ -353,10 +353,10 @@ Sleep reduced from 50ms to 1ms.
   - [x] Press start button
   - [x] Recording indicator shows within ~100ms
   - [x] No noticeable delay
-  > ✅ Windows console: `✓ Video anchor set: 12956694.832 ms` (immediate after dxcam start)
-  > ✅ From 19:13:13 init → 19:13:14 anchor set = ~1 second total startup
+  > ✅ Windows: `✓ Video anchor set: 12956694.832 ms` (immediate after dxcam start)
+  > ✅ Linux: `✓ First frame detected at 8093688.304 ms` (via showinfo filter)
 
-**Tested on:** Windows (console log verified)
+**Tested on:** Windows + Linux (console logs verified)
 
 ---
 
@@ -473,8 +473,10 @@ Sleep reduced from 50ms to 1ms.
 
 ### 🐧 Linux (screeninfo)
 - [x] Desktop dimensions via screeninfo library
+  > ✅ Console: `Desktop dimensions via monitor bounding box: 1366x768`
   > ✅ Verified: `screen_width: 1366`, `screen_height: 768`
-- [ ] Verify `metadata.json` has correct dimensions
+- [x] Verify `metadata.json` has correct dimensions
+  > ✅ Console: `Screen: 1366x768, Video: 1280x720`
 - [ ] **Multi-monitor:** Should span all monitors
 
 ---
