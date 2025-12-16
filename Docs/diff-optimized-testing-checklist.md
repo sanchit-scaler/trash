@@ -882,82 +882,69 @@ Sleep reduced from 50ms to 1ms.
 # ✅ Final Summary Checklist
 
 ## Platform-Agnostic (Complete on any ONE OS)
-- [x] 1.1 Letterbox formula (same aspect ratio macOS, scale=1.2 Windows)
-- [x] 1.2 Coordinate scaling (scale=1.0 macOS, scale=1.2 Windows)
-- [x] 1.3 Event JSON structure (move/click/keyboard verified, ⚠️ scroll bug found)
-- [x] 1.4 Metadata JSON structure (all fields present)
-- [ ] 1.5 Encoder preset mapping (need console logs)
-- [x] 1.6 video.log regex (`n:` format verified on both platforms)
-- [ ] 1.7 CPU tier logic (need console logs)
-- [x] 1.8 second_in_video calculation (macOS fallback + Windows PTS verified)
-- [ ] 1.9 EncoderChoice structure (need console logs)
-- [ ] 1.10 Environment variable override (need manual test)
-- [ ] 1.11 py-cpuinfo import (need manual test)
-- [ ] 1.12 Disk I/O test (need console logs)
-- [ ] 1.13 RAM detection (need console logs)
-- [x] 1.14 First-frame detection speed (verified from logs)
-  > ✅ macOS: `✓ First frame detected at 14935465.931 ms` (241ms after start)
-  > ✅ Windows: `✓ Video anchor set: 3592000.421 ms` (immediate)
-  > ✅ Linux: `✓ First frame detected at 8093688.304 ms` (via showinfo filter)
+- [x] 1.1 Letterbox formula ✅
+  > Scale: macOS 1.0, Windows 1.2, Linux 0.937
+  > Padding: macOS 16:10→16:9 = pad_x:96 ✅
+- [x] 1.2 Coordinate scaling ✅
+- [x] 1.3 Event JSON structure ✅ (move/click/keyboard verified, ⚠️ scroll bug)
+- [x] 1.4 Metadata JSON structure ✅
+- [ ] 1.5 Encoder preset mapping — ⚠️ DEAD CODE
+- [x] 1.6 video.log regex ✅
+- [x] 1.7 CPU tier logic ✅
+  > i3 → FAIL (Windows, Ubuntu)
+  > M1 → PASS (macOS)
+- [x] 1.8 second_in_video calculation ✅
+- [ ] 1.9 EncoderChoice structure — ⚠️ DEAD CODE
+- [ ] 1.10 Environment variable override — ⚠️ DEAD CODE
+- [x] 1.11 py-cpuinfo ✅ (CPU brand detected on all 3 OS)
+- [x] 1.12 Disk I/O test ✅ (passed on all 3 OS)
+- [x] 1.13 RAM detection ✅
+  > macOS: 16.0 GB, Windows: 7.7 GB, Ubuntu: 7.5 GB
+- [x] 1.14 First-frame detection speed ✅
+  > macOS, Windows, Linux all verified
 
-**Tested on:** macOS + Windows + Linux recordings 
+**Tested on:** macOS + Windows + Linux 
 
 ---
 
 ## Platform-Specific (Complete on EACH OS)
 
 ### Windows
-- [ ] 2.1 GPU detection (WMI) - ⚠️ **DEAD CODE** (ffmpeg_encoder_selector not imported)
-- [ ] 2.2 Encoder selection - ⚠️ **DEAD CODE** (VFR path bypasses encoder selector)
-  > ⚠️ Current: `Using ffmpeg encoder (primary path for Windows)` (no hwaccel)
-- [x] 2.4 Desktop dimensions (GetSystemMetrics) - 1600x900 verified
-  > ✅ Log: `Desktop dimensions via GetSystemMetrics: 1600x900`
-- [x] 2.5 Cursor position (GetCursorPos) - coordinates captured correctly
-  > ✅ Log: `Cursor capture initialized`
-- [ ] 2.6 CPU brand (WMI fallback) - need console logs
-- [ ] 2.7 Power state (powercfg) - need console logs
-- [ ] 2.8 Encoder performance - need comparison test
-- [x] 2.9 Video output - h264 @ 30fps, 1920x1080, 10.27s
-  > ✅ Log: `ffmpeg VFR finished: 310 frames, 10.27s duration`
-- [ ] 2.10 Multi-monitor (if available)
+- [ ] 2.1 GPU detection (WMI) - ⚠️ **DEAD CODE**
+- [ ] 2.2 Encoder selection - ⚠️ **DEAD CODE**
+- [x] 2.4 Desktop dimensions (GetSystemMetrics) - 1600x900 ✅
+- [x] 2.5 Cursor position (GetCursorPos) ✅
+- [x] 2.6 CPU brand - "11th Gen Intel Core i3-1115G4" ✅
+- [x] 2.7 Power state - "System is plugged in" ✅
+- [ ] 2.8 Encoder performance - blocked (dead code)
+- [x] 2.9 Video output - h264 @ 30fps ✅
+- [ ] 2.10 Multi-monitor - ⚠️ KNOWN BUG
 
 ### macOS
-- [x] 2.1 GPU detection (system_profiler) - Apple M1 detected
-- [x] 2.2 Encoder selection - ScreenCaptureKit + FFmpeg post-process
-  > ✅ Log: `✓ Native macOS ScreenCaptureKit available`
-  > ✅ Log: `Post-processing video to constant 30fps with ffmpeg`
-- [x] 2.4 Desktop dimensions (NSScreen) - 1920x1080
-  > ✅ Log: `Desktop dimensions via monitor bounding box: 1920x1080`
-  > ✅ Log: `Letterbox mapping: scale=1.0000, pad=(0, 0), scaled_size=1920x1080`
-- [x] 2.5 Cursor position (NSEvent) - valid coordinates captured
-- [ ] 2.6 CPU brand (sysctl fallback) - need console logs
-- [ ] 2.7 Power state (pmset) - need console logs
-- [ ] 2.8 Encoder performance - need comparison test
-- [x] 2.9 Video output - h264 @ 30fps, 1920x1080, 11.63s
-  > ✅ Log: `Frame writer finished (VFR). Written: 337`
-  > ✅ Log: `Recording saved: .../video.mp4 (10.37 MB)`
-- [ ] 2.10 Multi-monitor (if available)
+- [x] 2.1 GPU detection - Apple M1 ✅
+- [x] 2.2 Encoder selection - ScreenCaptureKit + FFmpeg post-process ✅
+- [x] 2.4 Desktop dimensions - 1920x1080 (external), 1440x900 (native) ✅
+- [x] 2.5 Cursor position (NSEvent) ✅
+- [x] 2.6 CPU brand - "Apple M1" ✅
+- [x] 2.7 Power state ✅
+  > Battery: Warning shown ✅
+  > Plugged in: App started ✅
+  > ⚠️ **BUG: Low Power Mode NOT detected!**
+- [ ] 2.8 Encoder performance - blocked (native capture)
+- [x] 2.9 Video output - h264 @ 30fps ✅
+- [ ] 2.10 Multi-monitor - ⚠️ KNOWN BUG
 
 ### Linux
-- [ ] 2.1 GPU detection (lspci) - ⚠️ **DEAD CODE** (ffmpeg_encoder_selector not imported)
-- [ ] 2.2 Encoder selection - ⚠️ **DEAD CODE** (x11grab hardcoded to libx264)
-  > ⚠️ Actual: `-c:v libx264 -preset ultrafast` (no hwaccel attempted)
-- [ ] 2.3 VAAPI device detection - ⚠️ **DEAD CODE** (VAAPI code exists but never called)
-- [x] 2.4 Desktop dimensions (screeninfo) - 1366x768 verified
-  > ✅ Log: `Desktop dimensions via monitor bounding box: 1366x768`
-  > ✅ Log: `Letterbox mapping: scale=0.9370, pad=(0, 0), scaled_size=1280x720`
-- [x] 2.5 Cursor position (pynput) - coordinates captured correctly
-  > ✅ Log: `Using Recorder (pynput-based)` for X11
-  > ✅ Recording: `raw_x: 536-780, raw_y: 60-338` (within screen bounds)
-- [ ] 2.6 CPU brand (/proc/cpuinfo fallback) - need console logs
-- [ ] 2.7 Power state (psutil) - need console logs
-- [x] 2.8 Encoder performance - software encoding measured
-  > ✅ Log: `frame=468 fps=30 time=00:00:15.60 bitrate=1537.2kbits/s speed=1x`
-  > ✅ Log: `kb/s:1535.44` (libx264 final output)
-- [x] 2.9 Video output - h264 @ 30fps, 1280x720, 15.60s
-  > ✅ Log: `Recording saved to: video.mp4 (2997444 bytes)` = ~3MB
-  > ✅ Log: `✓ ffmpeg exited gracefully with code: 0`
-- [ ] 2.10 Multi-monitor (if available)
+- [ ] 2.1 GPU detection (lspci) - ⚠️ **DEAD CODE**
+- [ ] 2.2 Encoder selection - ⚠️ **DEAD CODE** (hardcoded libx264)
+- [ ] 2.3 VAAPI device detection - ⚠️ **DEAD CODE**
+- [x] 2.4 Desktop dimensions - 1366x768 ✅
+- [x] 2.5 Cursor position (pynput) ✅
+- [x] 2.6 CPU brand - "11th Gen Intel Core i3-1115G4" ✅
+- [x] 2.7 Power state - Battery warning shown ✅
+- [x] 2.8 Encoder performance - libx264 @ 30fps, speed=1x ✅
+- [x] 2.9 Video output - h264 @ 30fps, 1280x720 ✅
+- [ ] 2.10 Multi-monitor - ⚠️ KNOWN BUG
 
 ---
 
