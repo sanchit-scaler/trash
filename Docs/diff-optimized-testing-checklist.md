@@ -235,8 +235,9 @@ Pure string parsing — tests the logic, not CPU detection.
 
 - [x] **Intel tier logic (verify in code/unit test):**
   - [x] i3 → FAIL (below i5)
-    > ✅ Tested: System requirements check correctly rejects i3 CPUs
-  - [ ] i5, i7, i9 → PASS
+    > ✅ Windows: "Intel Core i3 is below minimum tier (requires i5 or better)"
+    > ✅ Ubuntu: "Intel Core i3 is below minimum tier (requires i5 or better)"
+  - [ ] i5, i7, i9 → PASS (need i5+ machine to test)
   - [ ] Xeon, Atom, Ultra → PASS (special cases)
   - [ ] Unknown Intel → PASS (benefit of doubt)
 
@@ -331,12 +332,14 @@ Pure string parsing — tests the logic, not CPU detection.
 Uses standard Python file I/O.
 
 - [x] **Test passes on system with writable temp directory**
-  > ✅ Screenshot: "Disk I/O: Disk I/O test passed"
+  > ✅ macOS: "Disk I/O: Disk I/O test passed"
+  > ✅ Windows: "Disk I/O: Disk I/O test passed"
+  > ✅ Ubuntu: "Disk I/O: Disk I/O test passed"
 - [x] Writes and reads 20KB test file
 - [x] Verifies data integrity
-- [ ] Warns if slow (>500ms)
+- [ ] Warns if slow (>500ms) — need slow disk to test
 
-**Tested on:** macOS (Apple M1)
+**Tested on:** macOS, Windows, Ubuntu (all passed)
 
 ---
 
@@ -348,11 +351,15 @@ Uses psutil (cross-platform).
 
 - [x] **Verify RAM detection:**
   - [x] Check console for RAM check result
-    > ✅ Screenshot: "RAM: 16.0 GB" detected
+    > ✅ macOS: "RAM: 16.0 GB" detected
+    > ✅ Windows: "RAM: 7.7 GB" detected
+    > ✅ Ubuntu: "RAM: 7.5 GB" detected
   - [x] Compares against `TAGGR_MIN_RAM_GB` (default 7.5)
-    > ✅ Screenshot: "System has 16.0 GB RAM (sufficient)" — threshold 7.5 GB shown
+    > ✅ macOS: "System has 16.0 GB RAM (sufficient)"
+    > ✅ Windows: "System has 7.7 GB RAM (sufficient)"
+    > ✅ Ubuntu: "System has 7.5 GB RAM (sufficient)" — exactly at threshold!
 
-**Tested on:** macOS (Apple M1, 16GB)
+**Tested on:** macOS (16GB), Windows (7.7GB), Ubuntu (7.5GB)
 
 ---
 
@@ -552,21 +559,27 @@ Sleep reduced from 50ms to 1ms.
 **Source:** `taggr/startup/system_requirements.py` → `_check_power_state()`
 
 ### 🪟 Windows
-- [ ] Uses psutil for battery detection
+- [x] Uses psutil for battery detection
 - [ ] Energy saver detection: `powercfg /getactivescheme`
-- [ ] Test: Should pass when plugged in
+- [x] Test: Should pass when plugged in
+  > ✅ Screenshot: "Power: System is plugged in" — correctly detected!
 
 ### 🍎 macOS
 - [x] Uses psutil for battery detection
   > ✅ Screenshot: "System is running on battery power" — correctly detected!
 - [ ] Low Power Mode detection: `pmset -g`
-- [x] Test: Should pass when plugged in, warn if Low Power Mode
+  > ⚠️ **BUG: Low Power Mode NOT detected!** App started even with Low Power Mode enabled when plugged in
+- [x] Test: Should pass when plugged in
+  > ✅ Screenshot: App started successfully when plugged in (all checks passed)
+- [x] Test: Should warn if on battery
   > ✅ Screenshot: Shows warning "Plug in your device for reliable recording performance"
 
 ### 🐧 Linux
-- [ ] Uses psutil for battery detection
+- [x] Uses psutil for battery detection
+  > ✅ Screenshot: "System is running on battery power" — correctly detected on laptop!
 - [ ] No energy saver detection
-- [ ] Test: Should pass when plugged in or on desktop
+- [x] Test: Should warn if on battery
+  > ✅ Screenshot: Shows "Plug in your device for reliable recording performance"
 
 ---
 
@@ -989,7 +1002,16 @@ Sleep reduced from 50ms to 1ms.
 - **Historical:** 2025-12-11 CFR path DID call encoder selector and selected `h264_nvenc`
 - **Impact:** The "hwaccel" feature in this branch is incomplete/not integrated
 
-### ⚠️ Critical Finding #2: Multi-Monitor Coordinates Need Fix
+### ⚠️ Critical Finding #2: macOS Low Power Mode Not Detected
+
+**macOS Low Power Mode is not being detected by the system requirements check:**
+- When plugged in with Low Power Mode enabled, app starts without warning
+- Battery detection works correctly (psutil)
+- Low Power Mode detection (`pmset -g`) either not implemented or not working
+- **Impact:** Users may record with degraded performance without being warned
+- **Root cause:** Need to verify `_check_power_state()` implementation for macOS Low Power Mode
+
+### ⚠️ Critical Finding #3: Multi-Monitor Coordinates Need Fix
 
 **Video and coordinate systems are misaligned for multi-monitor setups:**
 - Video captures **only primary monitor** (e.g., 1920x1080) ✅ (correct behavior)
