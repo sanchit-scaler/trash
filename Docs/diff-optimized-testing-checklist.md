@@ -601,24 +601,47 @@ Sleep reduced from 50ms to 1ms.
 
 ## 2.10 Multi-Monitor Coordinate Handling
 
-**If multi-monitor setup available.**
+> ⚠️ **KNOWN LIMITATION: Multi-Monitor Support is Fundamentally Broken**
+>
+> **The Problem:**
+> - **Video capture:** Only records PRIMARY monitor (dxcam `output_idx=0`, ScreenCaptureKit `displays[0]`)
+> - **Desktop dimensions:** Reports TOTAL virtual desktop (bounding box of all monitors)
+> - **Cursor coordinates:** Captured across ENTIRE virtual desktop
+> - **Monitor arrangement:** NOT saved in metadata
+>
+> **Result:** When cursor is on a secondary monitor, coordinates point to areas OUTSIDE the recorded video. These coordinates are meaningless without knowing:
+> 1. Which monitor was recorded
+> 2. The spatial arrangement of all monitors (position, alignment)
+>
+> **To Fix Properly:**
+> - Option A: Capture entire virtual desktop (stitch all monitors), apply same letterbox transform to both video and coordinates
+> - Option B: Only capture cursor coordinates within the recorded monitor's bounds
+> - Either way: Need to save monitor arrangement in metadata for replay/analysis
+>
+> **Current Code References:**
+> - `metadata.py` lines 45-54: Gets bounding box but discards individual monitor positions
+> - `windows_screen_recorder.py` line 953: `dxcam.create(output_idx=0)` — primary only
+> - `macos_screen_recorder.py` line 685: `main_display = displays[0]` — first only
 
 ### 🪟 Windows
 - [ ] GetSystemMetrics returns virtual desktop size
 - [ ] Coordinates can be negative (monitor left/above primary)
 - [ ] Move cursor across monitors
 - [ ] Verify `events.jsonl` coordinates span full virtual desktop
+> ⚠️ **Cannot properly test:** Video only captures primary monitor
 
 ### 🍎 macOS
 - [ ] Connect external display
 - [ ] Verify total desktop size in metadata
 - [ ] Move cursor across displays
 - [ ] Verify coordinates span both displays
+> ⚠️ **Cannot properly test:** Video only captures first display
 
 ### 🐧 Linux
 - [ ] Configure multi-monitor in display settings
 - [ ] Verify desktop size detection
 - [ ] Verify coordinate tracking across monitors
+> ⚠️ **Cannot properly test:** x11grab behavior with multi-monitor unclear
 
 ---
 
@@ -898,12 +921,12 @@ Sleep reduced from 50ms to 1ms.
 | Category | Platform | Status | Notes |
 |----------|----------|--------|-------|
 | Platform-Agnostic | All 3 OS | 🟢 Good | 11/14 verified from recordings + logs |
-| Platform-Specific | Windows | 🟡 Partial | 3/9 verified, **⚠️ hwaccel dead code** |
-| Platform-Specific | macOS | 🟢 Good | 7/9 verified from recordings + logs |
-| Platform-Specific | Linux | 🟡 Partial | 4/10 verified, **⚠️ hwaccel dead code** |
+| Platform-Specific | Windows | 🟡 Partial | 3/9 verified, **⚠️ hwaccel dead code, multi-monitor broken** |
+| Platform-Specific | macOS | 🟡 Partial | 7/9 verified, **⚠️ multi-monitor broken** |
+| Platform-Specific | Linux | 🟡 Partial | 4/10 verified, **⚠️ hwaccel dead code, multi-monitor broken** |
 | Windows-Exclusive | Windows | 🟢 Good | 10/11 verified, **⚠️ 1 bug found** (trackpad scroll not captured) |
 
-### ⚠️ Critical Finding: Dead Code
+### ⚠️ Critical Finding #1: Dead Code
 
 **`taggr/ffmpeg_encoder_selector.py` is DEAD CODE!**
 - File exists (454 lines) but is **never imported** anywhere in the codebase
@@ -913,6 +936,19 @@ Sleep reduced from 50ms to 1ms.
 - **Root cause:** Windows VFR path (line 1481) hardcoded, bypasses encoder selector
 - **Historical:** 2025-12-11 CFR path DID call encoder selector and selected `h264_nvenc`
 - **Impact:** The "hwaccel" feature in this branch is incomplete/not integrated
+
+### ⚠️ Critical Finding #2: Multi-Monitor is Broken
+
+**Video and coordinate systems are misaligned for multi-monitor setups:**
+- Video captures **only primary monitor** (e.g., 1920x1080)
+- Cursor coordinates span **entire virtual desktop** (e.g., 0-4480 for dual monitors)
+- Monitor arrangement (positions, alignment) is **not saved** in metadata
+- **Impact:** Cursor events on secondary monitors have coordinates outside video bounds
+- **Root cause:** 
+  - `dxcam.create(output_idx=0)` — Windows captures primary only
+  - `displays[0]` — macOS captures first display only
+  - Monitor positions calculated but discarded (not stored in metadata)
+- **To fix:** Either capture entire virtual desktop with stitching, or filter events to recorded monitor only
 
 ### Log Files Verified
 - **taggr_windows.log** (55,487 lines) - Windows 2025-12-16 sessions
