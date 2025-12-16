@@ -634,13 +634,20 @@ Sleep reduced from 50ms to 1ms.
 
 ## 2.10 Multi-Monitor Coordinate Handling
 
-> ⚠️ **KNOWN LIMITATION: Multi-Monitor Support is Fundamentally Broken**
+> ⚠️ **KNOWN ISSUE: Multi-Monitor Coordinate Handling Needs Fix**
 >
-> **The Problem:**
-> - **Video capture:** Only records PRIMARY monitor (dxcam `output_idx=0`, ScreenCaptureKit `displays[0]`)
-> - **Desktop dimensions:** Reports TOTAL virtual desktop (bounding box of all monitors)
-> - **Cursor coordinates:** Captured across ENTIRE virtual desktop
-> - **Monitor arrangement:** NOT saved in metadata
+> **Current Implementation:**
+> - **Video capture:** Only records PRIMARY monitor (dxcam `output_idx=0`, ScreenCaptureKit `displays[0]`) ✅
+> - **Desktop dimensions:** Reports TOTAL virtual desktop (bounding box of all monitors) ❌
+> - **Cursor coordinates:** Captured across ENTIRE virtual desktop ❌
+>
+> **Senior Clarification (2025-12-16):**
+> > "Our goal is to calculate the x and y of the cursor **relative to the current monitor**, we don't need to store the multi monitor information"
+>
+> **Required Fix:**
+> - Coordinates should be **relative to the recorded monitor**, not virtual desktop
+> - No need to store monitor arrangement
+> - When cursor is on secondary monitor, coordinates should be clipped/ignored
 >
 > **Result:** When cursor is on a secondary monitor, coordinates point to areas OUTSIDE the recorded video. These coordinates are meaningless without knowing:
 > 1. Which monitor was recorded
@@ -982,18 +989,21 @@ Sleep reduced from 50ms to 1ms.
 - **Historical:** 2025-12-11 CFR path DID call encoder selector and selected `h264_nvenc`
 - **Impact:** The "hwaccel" feature in this branch is incomplete/not integrated
 
-### ⚠️ Critical Finding #2: Multi-Monitor is Broken
+### ⚠️ Critical Finding #2: Multi-Monitor Coordinates Need Fix
 
 **Video and coordinate systems are misaligned for multi-monitor setups:**
-- Video captures **only primary monitor** (e.g., 1920x1080)
-- Cursor coordinates span **entire virtual desktop** (e.g., 0-4480 for dual monitors)
-- Monitor arrangement (positions, alignment) is **not saved** in metadata
+- Video captures **only primary monitor** (e.g., 1920x1080) ✅ (correct behavior)
+- Cursor coordinates span **entire virtual desktop** (e.g., 0-4480 for dual monitors) ❌
 - **Impact:** Cursor events on secondary monitors have coordinates outside video bounds
+
+**Senior Clarification (2025-12-16):**
+> "Our goal is to calculate the x and y of the cursor **relative to the current monitor**, we don't need to store the multi monitor information"
+
 - **Root cause:** 
-  - `dxcam.create(output_idx=0)` — Windows captures primary only
-  - `displays[0]` — macOS captures first display only
-  - Monitor positions calculated but discarded (not stored in metadata)
-- **To fix:** Either capture entire virtual desktop with stitching, or filter events to recorded monitor only
+  - `dxcam.create(output_idx=0)` — Windows captures primary only ✅
+  - `displays[0]` — macOS captures first display only ✅
+  - Coordinates NOT transformed to recorded monitor's coordinate space ❌
+- **Required fix:** Transform cursor coordinates to be relative to the recorded monitor only (not full virtual desktop)
 
 ### Log Files Verified
 - **taggr_windows.log** (55,487 lines) - Windows 2025-12-16 sessions
