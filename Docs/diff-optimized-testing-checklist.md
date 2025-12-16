@@ -315,14 +315,15 @@ Pure string parsing — tests the logic, not CPU detection.
 
 **Source:** `requirements.txt`, `taggr/startup/system_requirements.py`
 
-- [ ] **Verify import works:**
+- [x] **Verify import works:**
   ```bash
   python -c "import cpuinfo; print(cpuinfo.get_cpu_info().get('brand_raw', 'Unknown'))"
   ```
-- [ ] Returns CPU brand string
-- [ ] No import errors
+- [x] Returns CPU brand string (or fallback used)
+  > ⚠️ py-cpuinfo returns `"Unknown"` on Apple Silicon — taggr uses `sysctl` fallback
+- [x] No import errors
 
-**Tested on:** _________________ (any OS)
+**Tested on:** macOS (Apple M1)
 
 ---
 
@@ -546,8 +547,8 @@ Sleep reduced from 50ms to 1ms.
 ### 🍎 macOS
 - [x] CPU brand detected successfully
   > ✅ "Apple M1"
-- [ ] Primary: py-cpuinfo (need console logs to verify method)
-- [ ] Fallback: `sysctl -n machdep.cpu.brand_string`
+- [x] Primary: py-cpuinfo → returns `"Unknown"` on Apple Silicon
+- [x] Fallback: `sysctl -n machdep.cpu.brand_string` → returns `"Apple M1"` ✅
 
 ### 🐧 Linux
 - [x] CPU brand detected successfully
@@ -910,7 +911,7 @@ Sleep reduced from 50ms to 1ms.
 - [x] 1.8 second_in_video calculation ✅
 - [ ] 1.9 EncoderChoice structure — ⚠️ DEAD CODE
 - [ ] 1.10 Environment variable override — ⚠️ DEAD CODE
-- [x] 1.11 py-cpuinfo ✅ (CPU brand detected on all 3 OS)
+- [x] 1.11 py-cpuinfo ✅ (CPU brand detected on all 3 OS; macOS uses sysctl fallback)
 - [x] 1.12 Disk I/O test ✅ (passed on all 3 OS)
 - [x] 1.13 RAM detection ✅
   > macOS: 16.0 GB, Windows: 7.7 GB, Ubuntu: 7.5 GB
