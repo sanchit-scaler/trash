@@ -36,16 +36,19 @@ This is pure math — no OS APIs involved.
   > ✅ Windows (upscale): 1600x900 → 1920x1080, `scale: 1.2`
   > ✅ Linux (downscale): 1366x768 → 1280x720, `scale: 0.937`
 
-- [ ] **Test padding calculation:**
+- [x] **Test padding calculation:**
   ```python
   scaled_w = int(round(screen_w * scale))
   scaled_h = int(round(screen_h * scale))
   pad_x = (video_w - scaled_w) // 2  # Integer division
   pad_y = (video_h - scaled_h) // 2  # Integer division
   ```
-  - [ ] Check `metadata.json` for `letterbox_pad_x`, `letterbox_pad_y`
-  - [ ] Verify integer division is used (no fractional padding)
-  > ⚠️ **NOT TESTED:** All recordings have same 16:9 aspect ratio → padding always 0
+  - [x] Check `metadata.json` for `letterbox_pad_x`, `letterbox_pad_y`
+  - [x] Verify integer division is used (no fractional padding)
+  > ✅ **macOS (16:10 → 16:9):** Screen 1440×900 → Video 1920×1080
+  > ✅ `letterbox_scale: 1.2`, `letterbox_pad_x: 96`, `letterbox_pad_y: 0`
+  > ✅ `letterbox_scaled_width: 1728`, `letterbox_scaled_height: 1080`
+  > ✅ Math: `pad_x = (1920 - 1728) / 2 = 96` — integer division confirmed!
   > Need recording with aspect ratio mismatch (e.g., 4:3 screen → 16:9 video) to verify non-zero padding
 
 - [x] **Test scaled dimensions:**
@@ -58,6 +61,12 @@ This is pure math — no OS APIs involved.
   - [x] Use matching aspect ratios (e.g., both 16:9)
   - [x] Verify `letterbox_pad_x` = 0 and `letterbox_pad_y` = 0 (or minimal)
   > ✅ Verified: 1920x1080 → 1920x1080, `letterbox_scale: 1.0`, `pad_x: 0`, `pad_y: 0`
+
+- [x] **Edge case: Different aspect ratio (16:10 → 16:9):**
+  - [x] MacBook Pro native 1440×900 (16:10) → Video 1920×1080 (16:9)
+  - [x] Verify non-zero horizontal padding
+  > ✅ Recording: `mac_vscode_markdown_preview_padding`
+  > ✅ `letterbox_pad_x: 96` (pillarboxing for wider output)
 
 - [ ] **Edge case: Invalid dimensions:**
   - [ ] Code should handle zero/negative dimensions with 1:1 fallback
@@ -982,14 +991,23 @@ Sleep reduced from 50ms to 1ms.
 
 ---
 
-### Recording 1: macOS
+### Recording 1: macOS (External Monitor)
 **Recording Used:** `mac_mail_unread_filter_setup`  
 **Recording Date:** 2025-12-16  
 **Platform:** macOS (Darwin arm64, MacBookPro17,1 M1)  
 **Video Duration:** 11.63s  
 **Frames:** 337  
 **Encoder:** h264_videotoolbox  
-**Letterbox:** scale=1.0 (same aspect ratio)
+**Letterbox:** scale=1.0 (same aspect ratio, external 1920×1080 monitor)
+
+### Recording 1b: macOS (Native 16:10 Screen — Padding Test)
+**Recording Used:** `mac_vscode_markdown_preview_padding`  
+**Recording Date:** 2025-12-16  
+**Platform:** macOS (Darwin arm64, MacBookPro17,1 M1)  
+**Screen:** 1440×900 (16:10 native MacBook Pro)  
+**Video:** 1920×1080 (16:9)  
+**Letterbox:** scale=1.2, **pad_x=96**, pad_y=0  
+**Purpose:** Verified non-zero padding calculation with aspect ratio mismatch!
 
 ### Recording 2: Windows (Short)
 **Recording Used:** `mac_mail_unread_filter_setup_windows`  
