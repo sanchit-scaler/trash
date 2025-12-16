@@ -353,10 +353,11 @@ Sleep reduced from 50ms to 1ms.
   - [x] Press start button
   - [x] Recording indicator shows within ~100ms
   - [x] No noticeable delay
+  > ✅ macOS: `✓ First frame detected at 25451014.872 ms` (via ScreenCaptureKit)
   > ✅ Windows: `✓ Video anchor set: 12956694.832 ms` (immediate after dxcam start)
   > ✅ Linux: `✓ First frame detected at 8093688.304 ms` (via showinfo filter)
 
-**Tested on:** Windows + Linux (console logs verified)
+**Tested on:** macOS + Windows + Linux (all console logs verified)
 
 ---
 
@@ -596,6 +597,10 @@ Sleep reduced from 50ms to 1ms.
   > ✅ h264 Constrained Baseline = VideoToolbox
 - [x] Video plays in QuickTime
   > ✅ Duration: 11.63s, plays correctly
+- [x] Post-processing to CFR verified
+  > ✅ Console: `Post-processing video to constant 30fps with ffmpeg`
+  > ✅ Console: `ffmpeg post-processing completed successfully`
+  > ✅ Console: `Recording saved: ... (14.26 MB)`
 
 ### 🐧 Linux
 - [x] Run: `ffprobe video.mp4 2>&1 | grep "Video:"`

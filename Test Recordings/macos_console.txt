@@ -1,0 +1,415 @@
+apple@apples-MacBook-Pro dist % ./Taggr-dev-v1.4.5       
+2025-12-16 19:32:27 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:27 - taggr - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:27
+2025-12-16 19:32:27 - taggr - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:27 - taggr - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:27 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:29
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - Starting Taggr Application
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - Python version: 3.11.13 (main, Sep 18 2025, 19:53:58) [Clang 20.1.4 ]
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - Platform: darwin
+2025-12-16 19:32:29 - taggr - DEBUG - [logger.py:132] - Command line args: ['./Taggr-dev-v1.4.5']
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - Checking for existing application instance
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [single_instance.py:130] - Lock file created: /Users/apple/Library/Application Support/taggr/.taggr.lock (PID: 39571)
+2025-12-16 19:32:29 - taggr.single_instance - INFO - [single_instance.py:215] - Single instance lock acquired successfully
+2025-12-16 19:32:29 - taggr - INFO - [logger.py:137] - Single instance check passed - proceeding with startup
+2025-12-16 19:32:29 - taggr.main - DEBUG - [main.py:95] - Initializing QApplication
+2025-12-16 19:32:30 - taggr - INFO - [logger.py:137] - ⏱ QApplication init took 0.46s
+2025-12-16 19:32:31 - taggr - INFO - [logger.py:137] - ⏱ Splash screen displayed in 1.17s
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:31
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:31
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.monitor_check - WARNING - [monitor_check.py:91] - Monitor check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-16 19:32:31 - taggr.startup.monitor_check - WARNING - [monitor_check.py:95] - Multiple monitors may cause coordinate capture issues!
+2025-12-16 19:32:31 - taggr - INFO - [logger.py:137] - ⏱ Monitor check took 0.00s
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:31
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:31
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:31 - taggr.startup.system_requirements - WARNING - [system_requirements.py:681] - System requirements check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-16 19:32:32 - taggr - INFO - [logger.py:137] - ⏱ Hardware requirements check took 1.07s
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:32
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:32
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:32 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:33 - taggr - INFO - [logger.py:137] - ⏱ Permission checks took 1.14s
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:34
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:34
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:34 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_dialog.py:823] - Checking authentication requirement
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_dialog.py:833] - Calling /api/auth/me to verify authentication (attempt 1/3)
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:cmt0Jp2msn88msk8BKS3Htb-I9Z31M2g.+BSjn1hKm+RT/Cchh6/yd9o8AVzhJhzmV/z9NWOsQUI'}
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: Sanchit Wadehra
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-16 19:32:34 - taggr.auth - INFO - [auth_dialog.py:836] - Session exists, verifying with API...
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-16 19:32:34 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:cmt0Jp2msn88msk8BKS3Htb-I9Z31M2g.+BSjn1hKm+RT/Cchh6/yd9o8AVzhJhzmV/z9NWOsQUI'}
+2025-12-16 19:32:35 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-16 19:32:35 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-16 19:32:35 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: Sanchit Wadehra
+2025-12-16 19:32:35 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-16 19:32:35 - taggr.auth - INFO - [auth_dialog.py:841] - Authentication valid, profile complete
+2025-12-16 19:32:35 - taggr.auth - INFO - [auth_dialog.py:843] - User settings - Resolution: None, FPS: None
+2025-12-16 19:32:35 - taggr - INFO - [logger.py:137] - ⏱ Authentication check took 0.23s
+2025-12-16 19:32:35 - taggr - INFO - [logger.py:137] - Authenticated as: sanchit.wadehra@scaler.com
+2025-12-16 19:32:36 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 19:32:36 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-16 19:32:36 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:36
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:36
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+Unknown property transform
+Unknown property transform
+2025-12-16 19:32:36 - taggr.project_dialog - INFO - [project_dialog.py:173] - Loading projects for selection dialog
+2025-12-16 19:32:36 - taggr.auth - INFO - [auth_client.py:908] - Fetching projects (status=active, include_configs=True)
+2025-12-16 19:32:36 - taggr.auth - INFO - [auth_client.py:924] - Retrieved 2 project(s) from API
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [app.py:1167] - Initializing MainInterface
+2025-12-16 19:32:39 - taggr.maininterface - DEBUG - [app.py:1169] - Creating system tray icon
+2025-12-16 19:32:39 - taggr.maininterface - DEBUG - [app.py:1182] - Initializing tray menu
+2025-12-16 19:32:39 - taggr.maininterface - DEBUG - [app.py:1185] - Initializing main window
+2025-12-16 19:32:39 - taggr.maininterface - DEBUG - [app.py:1188] - Initializing floating control panel
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [control_panel.py:239] - API video settings: resolution=1920x1080, fps=30
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [control_panel.py:512] - Resolution set from API: 1920x1080
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [control_panel.py:537] - FPS set from API: 30
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [control_panel.py:246] - Floating control panel initialized
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [app.py:1253] - Floating control panel displayed
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [app.py:1191] - MainInterface initialized
+2025-12-16 19:32:39 - taggr - INFO - [logger.py:137] - ⏱ MainInterface init took 0.08s
+2025-12-16 19:32:39 - taggr.controlpanel - INFO - [control_panel.py:830] - macOS screen recording exclusion configured
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [app.py:1305] - Auto-fetch task assignment requested
+2025-12-16 19:32:39 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 19:32:39 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-16 19:32:39 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:39
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:39 - taggr.maininterface - INFO - [app.py:1337] - Auto-fetch task assignment started in background (non-blocking)
+2025-12-16 19:32:39 - taggr.task_assignment - INFO - [app.py:994] - Requesting task (previous: none, project_id: 1)
+2025-12-16 19:32:40 - taggr.auth - INFO - [auth_client.py:789] - Requesting task assignment (previous: none)
+2025-12-16 19:32:40 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 19:32:40 - taggr - INFO - [logger.py:137] - ⏱ TOTAL STARTUP TIME: 10.38s
+2025-12-16 19:32:40 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 19:32:40 - taggr.main - INFO - [main.py:232] - Control panel is primary UI
+2025-12-16 19:32:40 - taggr.main - INFO - [main.py:255] - Starting application event loop
+2025-12-16 19:32:40 - taggr.auth - INFO - [auth_client.py:826] - Task assigned successfully: mac_preview_markup_screenshot (200df7b0-91d8-4d9d-8a5a-6c95d33de6aa)
+2025-12-16 19:32:40 - taggr.task_assignment - INFO - [app.py:1007] - Task assigned: mac_preview_markup_screenshot (200df7b0-91d8-4d9d-8a5a-6c95d33de6aa)
+2025-12-16 19:32:40 - taggr.maininterface - INFO - [app.py:1370] - Task assigned: mac_preview_markup_screenshot (200df7b0-91d8-4d9d-8a5a-6c95d33de6aa)
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1331] - Task data keys: ['task_id', 'task_uuid', 'task_slug', 'task_instruction', 'operating_system', 'applicant_id', 'project_id', 'attachments', 'expires_at', 'last_assigned_at', 'created_at', 'updated_at', 'application_id', 'qr_code_url', 'seconds_until_expiry']
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1332] - Task slug: mac_preview_markup_screenshot, QR code URL: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/200df7b0-91d8-4d9d-8a5a-6c95d33de6aa/mac_preview_markup_screenshot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T140240Z&X-Amz-Expires=604800&X-Amz-Signature=99d6b570e876424e1c2c1e9a518a9fca21a28dcd84c8776f3793243764f2f84d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject, Seconds until expiry: None
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1346] - QR code URL found: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/200df7b0-91d8-4d9d-8a5a-6c95d33de6aa/mac_preview_markup_screenshot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T140240Z&X-Amz-Expires=604800&X-Amz-Signature=99d6b570e876424e1c2c1e9a518a9fca21a28dcd84c8776f3793243764f2f84d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:40
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:40
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1641] - QR code download started in background QThread (non-blocking)
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [control_panel.py:53] - Loading QR code from URL: https://taggrops.s3.ap-south-1.amazonaws.com/production/qr_codes/200df7b0-91d8-4d9d-8a5a-6c95d33de6aa/mac_preview_markup_screenshot.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAY7DYV6KZWQDB5I5V%2F20251216%2Fap-south-1%2Fs3%2Faws4_request&X-Amz-Date=20251216T140240Z&X-Amz-Expires=604800&X-Amz-Signature=99d6b570e876424e1c2c1e9a518a9fca21a28dcd84c8776f3793243764f2f84d&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1365] - Displaying task: mac_preview_markup_screenshot
+2025-12-16 19:32:40 - taggr.control_panel - INFO - [control_panel.py:74] - QR code downloaded: 4038 bytes
+2025-12-16 19:32:40 - taggr.controlpanel - INFO - [control_panel.py:1655] - QR code data received: 4038 bytes
+2025-12-16 19:32:43 - taggr.controlpanel - INFO - [control_panel.py:1667] - QR code pixmap created: 512x512
+2025-12-16 19:32:43 - taggr.controlpanel - INFO - [control_panel.py:1688] - ✓ QR code loaded and displayed successfully
+2025-12-16 19:32:46 - taggr.controlpanel - INFO - [control_panel.py:909] - Start recording requested from control panel
+2025-12-16 19:32:46 - taggr.maininterface - INFO - [app.py:1695] - Starting new recording
+2025-12-16 19:32:46 - taggr.controlpanel - INFO - [control_panel.py:1182] - Control panel showing 'Starting...' state
+2025-12-16 19:32:46 - taggr.maininterface - DEBUG - [app.py:1725] - Natural scrolling (auto-detected): True
+2025-12-16 19:32:46 - taggr.maininterface - INFO - [app.py:1730] - Recording settings: 1920x1080 @ 30fps
+2025-12-16 19:32:46 - taggr.maininterface - INFO - [app.py:1739] - Recording for task: mac_preview_markup_screenshot
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:46
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:46
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [recorder_factory.py:35] - Creating recorder for platform: Darwin
+2025-12-16 19:32:46 - taggr.recorder.factory - INFO - [recorder_factory.py:36] - Resolution: 1920x1080, FPS: 30
+2025-12-16 19:32:47 - taggr.recorder.factory - INFO - [recorder_factory.py:84] - Using Recorder (pynput-based) for Darwin
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.recorder - DEBUG - [recorder.py:653] - Recordings directory: /Users/apple/Documents/Taggr_Recordings
+2025-12-16 19:32:47 - taggr.recorder - DEBUG - [recorder.py:662] - Creating recording directory: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47
+2025-12-16 19:32:47 - taggr.recorder - INFO - [recorder.py:62] - Recorder initialized successfully (deferred heavy initialization to thread)
+2025-12-16 19:32:47 - taggr.maininterface - INFO - [app.py:1772] - Recording initialization started
+2025-12-16 19:32:47 - taggr.recorder - WARNING - [recorder.py:377] - Could not adjust process priority: (pid=39571)
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.metadata - DEBUG - [metadata.py:57] - Desktop dimensions via monitor bounding box: 1920x1080
+2025-12-16 19:32:47 - taggr.metadata - DEBUG - [metadata.py:119] - Screen: 1920x1080, Video: 1920x1080
+2025-12-16 19:32:47 - taggr.metadata - DEBUG - [metadata.py:120] - Letterbox mapping: scale=1.0000, pad=(0, 0), scaled_size=1920x1080
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:333] - ✓ Native macOS ScreenCaptureKit available - will use hardware monotonic timestamps
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:196] - Found bundled ffmpeg at: /var/folders/lm/dkzftz_11zj808rm6wfgh5sr0000gn/T/_MEIGja4vf/binaries/ffmpeg
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:197] - ffmpeg permissions: 0o100700
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:205] - Updated ffmpeg permissions to: 0o100711
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:218] - ffmpeg xattrs: com.apple.provenance
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:227] - Removed quarantine attribute from ffmpeg
+2025-12-16 19:32:47 - taggr.screen_recorder - DEBUG - [screen_recorder.py:231] - Returning bundled ffmpeg path: /var/folders/lm/dkzftz_11zj808rm6wfgh5sr0000gn/T/_MEIGja4vf/binaries/ffmpeg
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:373] - Initializing screen recorder for Darwin
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:374] - Target resolution: 1920x1080 (1920x1080)
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:375] - Target FPS: 30
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:377] - Using native ScreenCaptureKit for hardware-level timestamp synchronization
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:829] - Starting macOS screen recording
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:833] - macOS version: 26.1
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:837] - Using native ScreenCaptureKit for hardware-level timestamp sync
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 19:32:47
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:343] - Using bundled ffmpeg: /var/folders/lm/dkzftz_11zj808rm6wfgh5sr0000gn/T/_MEIGja4vf/binaries/ffmpeg
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:281] - Initializing native macOS screen recorder
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:282] - Target resolution: 1920x1080 @ 30fps
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:283] - Output file: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.mp4
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:646] - Starting native macOS screen recording
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:655] - Requesting shareable content...
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:686] - Recording display: 1920x1080
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:733] - Stream output added successfully
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:816] - AVAssetWriter created for: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.mp4
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:845] - Video input created: 1920x1080 @ 30fps
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:860] - Pixel buffer adaptor created
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:865] - Video input added to asset writer
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:878] - AVAssetWriter ready (session will start at first frame)
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:879] - Writer status: 1
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:495] - Frame writer thread started (VFR mode)
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:774] - ✓ Native macOS screen recording started
+2025-12-16 19:32:47 - taggr.screen_recorder - INFO - [screen_recorder.py:849] - ✓ Native macOS recording started successfully
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:185] - First frame captured - PTS: 25451.006225s, perf_counter: 25451014.872ms
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:369] - ✓ First frame detected at 25451014.872 ms
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:378] - ✓ First frame: 1920x1080, format=1111970369
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:547] - ✓ First frame buffer ready: 1920x1080, format=1111970369
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:564] - Started asset writer session at time 0 (first frame original PTS: 25451.006225s)
+2025-12-16 19:32:47 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:581] - First frame written successfully at relative PTS: 0.0s
+This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+This process is not trusted! Input event monitoring will not be possible until it is added to accessibility clients.
+2025-12-16 19:32:49 - taggr.maininterface - INFO - [app.py:2549] - Recording started successfully
+2025-12-16 19:32:49 - taggr.controlpanel - INFO - [control_panel.py:1238] - Hiding control panel during recording
+2025-12-16 19:32:49 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=58, dropped=0, not_ready=0, no_pixbuf=0
+2025-12-16 19:32:50 - taggr.macos_screen_recorder - WARNING - [macos_screen_recorder.py:539] - Frame: pixel buffer is None
+2025-12-16 19:32:50 - taggr.macos_screen_recorder - WARNING - [macos_screen_recorder.py:539] - Frame: pixel buffer is None
+2025-12-16 19:32:50 - taggr.macos_screen_recorder - WARNING - [macos_screen_recorder.py:539] - Frame: pixel buffer is None
+2025-12-16 19:32:51 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=113, dropped=0, not_ready=0, no_pixbuf=3
+2025-12-16 19:32:54 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=161, dropped=0, not_ready=0, no_pixbuf=22
+2025-12-16 19:32:56 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=188, dropped=0, not_ready=0, no_pixbuf=54
+2025-12-16 19:32:58 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=231, dropped=0, not_ready=0, no_pixbuf=75
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:596] - Frames: written=286, dropped=0, not_ready=0, no_pixbuf=78
+2025-12-16 19:33:00 - taggr.maininterface - INFO - [app.py:1774] - Stopping recording
+2025-12-16 19:33:00 - taggr.recorder - INFO - [recorder.py:595] - Stopping recording session
+2025-12-16 19:33:00 - taggr.recorder - INFO - [recorder.py:600] - Stop timestamp captured: 25463933.038 ms
+2025-12-16 19:33:00 - taggr.recorder - DEBUG - [recorder.py:607] - Ending metadata collection
+2025-12-16 19:33:00 - taggr.recorder - DEBUG - [recorder.py:613] - Stopping mouse listener
+2025-12-16 19:33:00 - taggr.recorder - DEBUG - [recorder.py:617] - Stopping keyboard listener
+2025-12-16 19:33:00 - taggr.recorder - INFO - [recorder.py:627] - Stopping screen recording
+2025-12-16 19:33:00 - taggr.screen_recorder - INFO - [screen_recorder.py:521] - Stopping native macOS screen recording
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:896] - Stopping native macOS screen recording
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:607] - Frame writer finished (VFR). Written: 294, Dropped: 0, NotReady: 0, NoPixBuf: 79
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:926] - Finalizing video file...
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:929] - Marking video input as finished
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:935] - Asset writer status before finish: 1
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:947] - Waiting for finishWriting to complete...
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:952] - ✓ Video saved to: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.mp4
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:1072] - Post-processing video to constant 30fps with ffmpeg
+2025-12-16 19:33:00 - taggr.macos_screen_recorder - DEBUG - [macos_screen_recorder.py:1073] - ffmpeg command: /var/folders/lm/dkzftz_11zj808rm6wfgh5sr0000gn/T/_MEIGja4vf/binaries/ffmpeg -y -i /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.native.mp4 -vf fps=30 -vsync cfr -c:v libx264 -preset ultrafast -crf 18 -pix_fmt yuv420p -movflags +faststart -c:a copy /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.mp4
+2025-12-16 19:33:00 - taggr.recorder - INFO - [recorder.py:528] - Recording session ended. Total events: 187, Filtered: 0
+2025-12-16 19:33:08 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:1096] - ffmpeg post-processing completed successfully
+2025-12-16 19:33:08 - taggr.macos_screen_recorder - INFO - [macos_screen_recorder.py:969] - Recording saved: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47/video.mp4 (14.26 MB)
+2025-12-16 19:33:08 - taggr.recorder - DEBUG - [recorder.py:631] - Closing events file
+2025-12-16 19:33:08 - taggr.recorder - DEBUG - [recorder.py:637] - Calculating frame synchronization annotations
+2025-12-16 19:33:08 - taggr.recorder - DEBUG - [recorder.py:641] - Saving metadata
+2025-12-16 19:33:08 - taggr.recorder - INFO - [recorder.py:644] - Recording stopped successfully
+2025-12-16 19:33:08 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+QThread::start: Thread termination error (No such process)
+2025-12-16 19:33:08 - taggr.maininterface - DEBUG - [app.py:1788] - Recording saved to: /Users/apple/Documents/Taggr_Recordings/recording-2025-12-16_19-32-47
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1801] - Using task_slug for recording: mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1808] - Force deleting existing folder: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1810] - Existing folder deleted successfully
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1824] - Force deleting existing zip file: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1826] - Existing zip file deleted successfully
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1955] - Successfully renamed recording to: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:2068] - Creating zip file: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_preview_markup_screenshot/metadata.json
+2025-12-16 19:33:08 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_preview_markup_screenshot/video.log
+2025-12-16 19:33:08 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_preview_markup_screenshot/video.mp4
+2025-12-16 19:33:08 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: mac_preview_markup_screenshot/events.jsonl
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:2084] - Successfully created zip file: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1844] - Recording zipped successfully: mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:1849] - Starting automatic submission for task: mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 19:33:08 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: sanchit.wadehra@scaler.com
+2025-12-16 19:33:08 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-16 19:33:08
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-16 19:33:08
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:90] - Logging to file: /Users/apple/Library/Logs/Taggr/taggr.log
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:33:08 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:2192] - Submission worker started for task: mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+2025-12-16 19:33:08 - taggr.submission - INFO - [app.py:703] - Requesting presigned URL for task: mac_preview_markup_screenshot
+2025-12-16 19:33:08 - taggr.auth - INFO - [auth_client.py:962] - Requesting presigned URL for task: mac_preview_markup_screenshot, file: mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Getting upload URL...
+2025-12-16 19:33:08 - taggr.auth - INFO - [auth_client.py:995] - Presigned URL received for task_id: 7829
+2025-12-16 19:33:08 - taggr.submission - INFO - [app.py:715] - Received presigned URL for task_id: 7829
+2025-12-16 19:33:08 - taggr.submission - INFO - [app.py:719] - Uploading file: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot.zip
+2025-12-16 19:33:08 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Uploading recording to S3...
+2025-12-16 19:33:08 - taggr.auth - INFO - [auth_client.py:1029] - Uploading file to S3: /Users/apple/Documents/Taggr_Recordings/mac_preview_markup_screenshot.zip (14.00 MB)
+2025-12-16 19:33:10 - taggr.auth - INFO - [auth_client.py:1048] - ✓ File uploaded successfully to S3
+2025-12-16 19:33:10 - taggr.submission - INFO - [app.py:722] - Upload to S3 completed successfully
+2025-12-16 19:33:10 - taggr.submission - INFO - [app.py:726] - Submitting recording for task_id: 7829
+2025-12-16 19:33:10 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Finalizing submission...
+2025-12-16 19:33:10 - taggr.auth - INFO - [auth_client.py:1100] - Submitting recording for task_id: 7829
+2025-12-16 19:33:11 - taggr.auth - INFO - [auth_client.py:1146] - ✓ Submission successful! ID: 186584
+2025-12-16 19:33:11 - taggr.auth - INFO - [auth_client.py:1153] - Quality checks: 15 passed, 0 failed
+2025-12-16 19:33:11 - taggr.submission - INFO - [app.py:933] - Simple checks passed for submission 186584; continuing deep checks in background.
+2025-12-16 19:33:11 - taggr.submission - INFO - [app.py:765] - Starting polling for submission 186584 (status=checks_running, interval=5s, max_polls=300)
+2025-12-16 19:33:11 - taggr.maininterface - INFO - [app.py:2339] - Simple checks passed; continuing deep checks in background.
+2025-12-16 19:33:11 - taggr.maininterface - INFO - [app.py:2285] - Submission result (initial) for task: mac_preview_markup_screenshot
+2025-12-16 19:33:11 - taggr.maininterface - INFO - [app.py:2290] - Stored current submission_id: 186584
+2025-12-16 19:33:11 - taggr.submission - INFO - [app.py:810] - Poll timer started for submission 186584
+2025-12-16 19:33:11 - taggr.submission - INFO - [app.py:826] - Polling submission 186584 (attempt 1/300)
+2025-12-16 19:33:11 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 186584
+2025-12-16 19:33:11 - taggr.submission - INFO - [app.py:834] - Poll result for submission 186584: status=checks_running, completed=15/17
+2025-12-16 19:33:12 - taggr.maininterface - INFO - [app.py:2317] - Submission dialog closed by user; stopping deep check polling.
+QObject::killTimer: Timers cannot be stopped from another thread
+2025-12-16 19:33:12 - taggr.controlpanel - INFO - [control_panel.py:1721] - Cleared task display
+2025-12-16 19:33:12 - taggr.maininterface - INFO - [app.py:2302] - Cleared current task context after submission.
+
