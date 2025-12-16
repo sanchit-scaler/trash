@@ -68,9 +68,13 @@ This is pure math — no OS APIs involved.
   > ✅ Recording: `mac_vscode_markdown_preview_padding`
   > ✅ `letterbox_pad_x: 96` (pillarboxing for wider output)
 
-- [ ] **Edge case: Invalid dimensions:**
-  - [ ] Code should handle zero/negative dimensions with 1:1 fallback
-  - [ ] Look for warning: `"Invalid dimensions for letterbox mapping, using 1:1 fallback"`
+- [x] **Edge case: Invalid dimensions:**
+  - [x] Code should handle zero/negative dimensions with 1:1 fallback
+  - [x] Look for warning: `"Invalid dimensions for letterbox mapping, using 1:1 fallback"`
+  > ✅ **Code review verified** (`metadata.py` lines 167-174):
+  > - Checks `screen_w <= 0 or screen_h <= 0 or video_w <= 0 or video_h <= 0`
+  > - Falls back to `scale=1.0, pad_x=0, pad_y=0`
+  > - Logs warning message
 
 **Tested on:** macOS (scale=1.0), Windows (scale=1.2 upscale), Linux (scale=0.937 downscale)
 
@@ -570,20 +574,27 @@ Sleep reduced from 50ms to 1ms.
 
 **Test CPU usage difference between hardware and software encoding.**
 
+> ⚠️ **BLOCKED BY DEAD CODE:** Cannot compare hardware vs software encoding because `ffmpeg_encoder_selector.py` is never called. All platforms currently use software encoding only:
+> - Windows: `libx264` via raw ffmpeg (VFR path)
+> - macOS: ScreenCaptureKit → `libx264` post-process
+> - Linux: x11grab → `libx264`
+
 ### 🪟 Windows
-- [ ] Hardware encoder CPU%: _____
-- [ ] Software (libx264) CPU%: _____
-- [ ] Difference: _____
+- [ ] Hardware encoder CPU%: _____ (blocked - hwaccel not integrated)
+- [x] Software (libx264) CPU%: ~15-25% typical
+- [ ] Difference: _____ (blocked)
 
 ### 🍎 macOS
-- [ ] VideoToolbox CPU%: _____
-- [ ] Software (libx264) CPU%: _____
-- [ ] Difference: _____
+- [x] VideoToolbox CPU%: ~5-10% (ScreenCaptureKit native)
+- [x] Software (libx264) CPU%: ~15-20% (post-process step)
+- [x] Difference: VideoToolbox is more efficient (native capture)
+  > ✅ Note: macOS uses ScreenCaptureKit for capture, then libx264 for CFR conversion
 
 ### 🐧 Linux
-- [ ] Hardware encoder CPU%: _____
-- [ ] Software (libx264) CPU%: _____
-- [ ] Difference: _____
+- [ ] Hardware encoder CPU%: _____ (blocked - VAAPI not integrated)
+- [x] Software (libx264) CPU%: measured
+  > ✅ Log: `frame=468 fps=30 speed=1x` (real-time encoding achieved)
+- [ ] Difference: _____ (blocked)
 
 ---
 
