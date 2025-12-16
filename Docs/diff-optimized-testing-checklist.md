@@ -1001,21 +1001,31 @@ Sleep reduced from 50ms to 1ms.
 - **Impact:** Users may record with degraded performance without being warned
 - **Root cause:** Need to verify `_check_power_state()` implementation for macOS Low Power Mode
 
-### ⚠️ Critical Finding #3: Multi-Monitor Coordinates Need Fix
+### ⚠️ Critical Finding #3: Multi-Monitor Coordinates Bug (CONFIRMED)
 
 **Video and coordinate systems are misaligned for multi-monitor setups:**
-- Video captures **only primary monitor** (e.g., 1920x1080) ✅ (correct behavior)
-- Cursor coordinates span **entire virtual desktop** (e.g., 0-4480 for dual monitors) ❌
-- **Impact:** Cursor events on secondary monitors have coordinates outside video bounds
+- Video captures **only primary monitor** (e.g., 1920×1080) ✅ (correct behavior)
+- Desktop dimensions include **ALL monitors** (e.g., 1920×1980 for stacked setup) ❌
+- Scale factor calculated WRONG (0.5454 instead of 1.0) ❌
+- **Impact:** ALL cursor coordinates are wrong, even on the recorded monitor!
 
-**Senior Clarification (2025-12-16):**
+**Test Case Proof (2025-12-16):**
+- Recording: `mac_preview_invoice_highlight_multiple_monitor`
+- Setup: External 1920×1080 (primary, recorded) + Laptop 1440×900 (below, not recorded)
+- metadata.json: `screen_height: 1980` (1080 + 900 = both monitors!)
+- Result: Cursor at (1313, 348) on external → scaled to (1152, 190) — **161px error!**
+
+**Senior Clarification:**
 > "Our goal is to calculate the x and y of the cursor **relative to the current monitor**, we don't need to store the multi monitor information"
 
-- **Root cause:** 
-  - `dxcam.create(output_idx=0)` — Windows captures primary only ✅
-  - `displays[0]` — macOS captures first display only ✅
-  - Coordinates NOT transformed to recorded monitor's coordinate space ❌
-- **Required fix:** Transform cursor coordinates to be relative to the recorded monitor only (not full virtual desktop)
+**Root Cause:**
+- `taggr/metadata.py` line 44-57: `_get_desktop_dimensions()` calculates **bounding box of ALL monitors**
+- `taggr/metadata.py` line 96: Used for letterbox scale calculation
+- `taggr/metadata.py` line 182: `scale = min(video_w/screen_w, video_h/screen_h)` uses WRONG dimensions
+- Result: Scale factor includes non-recorded monitors → wrong coordinates
+
+**Required Fix:** 
+`_get_desktop_dimensions()` should return **primary monitor only**, not bounding box of all monitors
 
 ### Log Files Verified
 - **taggr_windows.log** (55,487 lines) - Windows 2025-12-16 sessions
