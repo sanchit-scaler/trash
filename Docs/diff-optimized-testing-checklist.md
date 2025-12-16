@@ -593,9 +593,12 @@ Sleep reduced from 50ms to 1ms.
   > ✅ Duration: 11.63s, plays correctly
 
 ### 🐧 Linux
-- [ ] Run: `ffprobe video.mp4 2>&1 | grep "Video:"`
-- [ ] Expected codec based on GPU
-- [ ] Video plays in media player
+- [x] Run: `ffprobe video.mp4 2>&1 | grep "Video:"`
+  > ✅ `Video: h264 (Constrained Baseline), yuv420p, 1280x720, 1535 kb/s, 30 fps`
+- [x] Expected codec based on GPU
+  > ✅ libx264 (software encoding) — from video.log: `rawvideo (native) -> h264 (libx264)`
+- [x] Video plays in media player
+  > ✅ Duration: 15.60s, 1280x720 @ 30fps, 2.9MB file
 
 ---
 
