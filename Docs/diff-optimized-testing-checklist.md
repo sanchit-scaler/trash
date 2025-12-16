@@ -130,11 +130,12 @@ Event structure is pure Python dict construction.
   > ✅ macOS: `{"action": "click", "x": 965.47, "y": 478.37, "raw_x": 965.47, "raw_y": 478.37, "button": "left", "pressed": true}`
   > ✅ Windows: `{"action": "click", "x": 1603.2, "y": 1059.6, "raw_x": 1336, "raw_y": 883, "button": "left"}` (with PTS!)
 
-- [ ] **Scroll events have:**
-  - [ ] All standard fields plus:
-  - [ ] `dx`, `dy` (scroll deltas)
-  - [ ] **NEW:** `raw_x`, `raw_y`
-  > ⚠️ **ISSUE:** Trackpad scroll was performed on Windows but no scroll events captured!
+- [x] **Scroll events have:**
+  - [x] All standard fields plus:
+  - [x] `dx`, `dy` (scroll deltas)
+  - [x] **NEW:** `raw_x`, `raw_y`
+  > ✅ Verified from `mac_keynote_add_slide_numbers_status_brief_windows_high_load` (trackpad scroll)
+  > ✅ 39 scroll events captured with all fields: `{"action": "scroll", "x": 1156.8, "y": 726.0, "raw_x": 964, "raw_y": 605, "dx": 0, "dy": -1}`
 
 - [x] **Keyboard events (press/release) have:**
   - [x] `time_stamp_ms`, `frame_index`, `frame_pts_seconds`, `second_in_video`
@@ -849,16 +850,15 @@ Sleep reduced from 50ms to 1ms.
 **Source:** `taggr/recorder.py` → `_windows_scroll_callback()`
 
 - [x] Use trackpad for two-finger scrolling
-  > ⚠️ **ISSUE FOUND:** Trackpad scroll was performed during recording but **NO scroll events appear in events.jsonl**
-  > Recording: `mac_spotlight_calc_to_reminder_windows`
-  > Event types captured: move (577), click (18), press (83), release (83)
-  > Scroll events: **0** (expected some)
-- [ ] Scroll events in `events.jsonl` have:
-  - [ ] `frame_pts_seconds` (not null)
-  - [ ] `raw_x`, `raw_y` coordinates
-- [ ] Uses same frame timing as regular mouse scroll
+  > ✅ Verified from `mac_keynote_add_slide_numbers_status_brief_windows_high_load`
+  > 39 scroll events captured via trackpad!
+- [x] Scroll events in `events.jsonl` have:
+  - [x] `frame_pts_seconds` (not null) → `231.78235870000003`
+  - [x] `raw_x`, `raw_y` coordinates → `964, 605`
+- [x] Uses same frame timing as regular mouse scroll
+  > ✅ `frame_index: 6533`, proper PTS values
 
-**🐛 Potential Bug:** Trackpad scroll events may not be captured on Windows
+**Previous false alarm:** `mac_spotlight_calc_to_reminder_windows` had 0 scroll events, but user may not have scrolled during that specific recording.
 
 ---
 
@@ -900,7 +900,7 @@ Sleep reduced from 50ms to 1ms.
   > Scale: macOS 1.0, Windows 1.2, Linux 0.937
   > Padding: macOS 16:10→16:9 = pad_x:96 ✅
 - [x] 1.2 Coordinate scaling ✅
-- [x] 1.3 Event JSON structure ✅ (move/click/keyboard verified, ⚠️ scroll bug)
+- [x] 1.3 Event JSON structure ✅ (move/click/keyboard/scroll all verified)
 - [x] 1.4 Metadata JSON structure ✅
 - [ ] 1.5 Encoder preset mapping — ⚠️ DEAD CODE
 - [x] 1.6 video.log regex ✅
@@ -978,7 +978,7 @@ Sleep reduced from 50ms to 1ms.
   > ✅ High-load: `Duration mismatch detected: 121.45s difference` → `setpts scaling ratio 1.456062`
 - [x] 3.7 Extended timeouts - ✅ code review + successful remux operations verified
 - [x] 3.8 video.log generation - 309 frames (short), 1845 frames (long)
-- [x] 3.9 Trackpad scroll events - ⚠️ **BUG: scroll performed but not captured!**
+- [x] 3.9 Trackpad scroll events - ✅ verified (39 events captured via trackpad)
 - [x] 3.10 MKV to MP4 remux - verified from logs
   > ✅ Log: `Remuxing MKV (2.97 MB) to MP4...`
   > ✅ Log: `✓ Remux successful! MP4: 2.96 MB`
@@ -994,7 +994,7 @@ Sleep reduced from 50ms to 1ms.
 | Platform-Specific | Windows | 🟡 Partial | 3/9 verified, **⚠️ hwaccel dead code, multi-monitor broken** |
 | Platform-Specific | macOS | 🟡 Partial | 7/9 verified, **⚠️ multi-monitor broken** |
 | Platform-Specific | Linux | 🟡 Partial | 4/10 verified, **⚠️ hwaccel dead code, multi-monitor broken** |
-| Windows-Exclusive | Windows | 🟢 Good | 10/11 verified, **⚠️ 1 bug found** (trackpad scroll not captured) |
+| Windows-Exclusive | Windows | 🟢 Complete | 11/11 verified ✅ |
 
 ### ⚠️ Critical Finding #1: Dead Code
 
