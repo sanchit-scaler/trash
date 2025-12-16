@@ -633,12 +633,15 @@ Sleep reduced from 50ms to 1ms.
 **Source:** `taggr/windows_screen_recorder.py` → `FramePayload.cursor_pos`, `_capture_thread_run()`
 
 - [ ] Cursor position is captured at exact moment of frame capture
+  > (requires code review or debug logs to confirm)
 - [ ] `FramePayload` includes `cursor_pos` tuple
-- [ ] **Visual test:**
-  - [ ] Move cursor rapidly in circles during recording
-  - [ ] Play back video
-  - [ ] Cursor should be smooth (not jittery/laggy)
-  - [ ] No "cursor trailing" effect
+  > (requires code review to confirm)
+- [x] **Visual test:**
+  - [x] Move cursor rapidly in circles during recording
+  - [x] Play back video
+  - [x] Cursor should be smooth (not jittery/laggy)
+  - [x] No "cursor trailing" effect
+  > ✅ Tested: Rapid cursor movement plays back smoothly
 
 ---
 
@@ -868,7 +871,7 @@ Sleep reduced from 50ms to 1ms.
 ---
 
 ## Windows-Exclusive (Complete on Windows ONLY)
-- [ ] 3.1 Hybrid buffer cursor sync - need visual test
+- [x] 3.1 Hybrid buffer cursor sync - ✅ visual test passed (smooth playback)
 - [x] 3.2 PTS frame timing callback - frame_pts_seconds not null!
 - [x] 3.3 VFR PTS calculation - VFR timing verified
   > ✅ Log: `Frame capture thread started (calculated sync mode)`
