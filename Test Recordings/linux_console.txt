@@ -1,0 +1,458 @@
+dell@dell-Latitude-3420:~/taggr/dist$ ./Taggr-dev-v1.4.5
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:16
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr.main - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Starting Taggr Application
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Python version: 3.12.3 (main, Nov  6 2025, 13:44:16) [GCC 13.3.0]
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Platform: linux
+2025-12-16 16:59:16 - taggr - DEBUG - [logger.py:132] - Command line args: ['./Taggr-dev-v1.4.5']
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Checking for existing application instance
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [single_instance.py:130] - Lock file created: /run/user/1000/.taggr.lock (PID: 42951)
+2025-12-16 16:59:16 - taggr.single_instance - INFO - [single_instance.py:215] - Single instance lock acquired successfully
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Single instance check passed - proceeding with startup
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - Linux platform detected - checking Ubuntu setup requirements
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [ubuntu_setup.py:660] - Supported Ubuntu version detected, checking setup status
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [ubuntu_setup.py:246] - Setup marker file exists - skipping setup checks
+2025-12-16 16:59:16 - taggr.startup.ubuntu_setup - INFO - [ubuntu_setup.py:666] - Ubuntu setup is complete
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - ⏱ Ubuntu setup check took 0.06s
+2025-12-16 16:59:16 - taggr.main - DEBUG - [main.py:95] - Initializing QApplication
+2025-12-16 16:59:16 - taggr - INFO - [logger.py:137] - ⏱ QApplication init took 0.01s
+2025-12-16 16:59:17 - taggr - INFO - [logger.py:137] - ⏱ Splash screen displayed in 1.02s
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:17
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:17
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.monitor_check - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.monitor_check - WARNING - [monitor_check.py:91] - Monitor check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-16 16:59:17 - taggr.startup.monitor_check - WARNING - [monitor_check.py:95] - Multiple monitors may cause coordinate capture issues!
+2025-12-16 16:59:17 - taggr - INFO - [logger.py:137] - ⏱ Monitor check took 0.00s
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:17
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:17
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.system_requirements - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:17 - taggr.startup.system_requirements - WARNING - [system_requirements.py:681] - System requirements check DISABLED - running in development mode (TAGGR_DEV_MODE=1)
+2025-12-16 16:59:18 - taggr - INFO - [logger.py:137] - ⏱ Hardware requirements check took 1.01s
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:18
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:18
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:18 - taggr.permissions_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:20 - taggr - INFO - [logger.py:137] - ⏱ Permission checks took 2.25s
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:21
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:21
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:21 - taggr.auth - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:21 - taggr.auth - INFO - [auth_dialog.py:823] - Checking authentication requirement
+2025-12-16 16:59:21 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 16:59:21 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: ubuntuscaler@gmail.com
+2025-12-16 16:59:21 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 16:59:21 - taggr.auth - INFO - [auth_dialog.py:833] - Calling /api/auth/me to verify authentication (attempt 1/3)
+2025-12-16 16:59:21 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-16 16:59:21 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:LU9I67_0qviYbSCw_IcFxHYZpVI1Gm_a.0JThXHaZh7N0ZOmQmcW2OpzN+fmp8IeYRFPrg2JneBw'}
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: ubuntu scaler
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_dialog.py:836] - Session exists, verifying with API...
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:598] - Fetching current user from: https://taggrops.scaler.com/api/auth/me
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:599] - Request cookies: {'connect.sid': 's:LU9I67_0qviYbSCw_IcFxHYZpVI1Gm_a.0JThXHaZh7N0ZOmQmcW2OpzN+fmp8IeYRFPrg2JneBw'}
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:603] - Response status: 200
+2025-12-16 16:59:22 - taggr.auth - DEBUG - [auth_client.py:604] - Response cookies: {}
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_client.py:620] - Authenticated as: ubuntu scaler
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_client.py:165] - Saved session to persistent storage
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_dialog.py:841] - Authentication valid, profile complete
+2025-12-16 16:59:22 - taggr.auth - INFO - [auth_dialog.py:843] - User settings - Resolution: None, FPS: None
+2025-12-16 16:59:22 - taggr - INFO - [logger.py:137] - ⏱ Authentication check took 0.27s
+2025-12-16 16:59:22 - taggr - INFO - [logger.py:137] - Authenticated as: ubuntuscaler@gmail.com
+2025-12-16 16:59:23 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 16:59:23 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: ubuntuscaler@gmail.com
+2025-12-16 16:59:23 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:23
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:23
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [logger.py:91] - ================================================================================
+Unknown property transform
+Unknown property transform
+2025-12-16 16:59:23 - taggr.project_dialog - INFO - [project_dialog.py:173] - Loading projects for selection dialog
+2025-12-16 16:59:23 - taggr.auth - INFO - [auth_client.py:908] - Fetching projects (status=active, include_configs=True)
+2025-12-16 16:59:23 - taggr.auth - INFO - [auth_client.py:924] - Retrieved 2 project(s) from API
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:55
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:55
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [app.py:1167] - Initializing MainInterface
+2025-12-16 16:59:55 - taggr.maininterface - DEBUG - [app.py:1169] - Creating system tray icon
+2025-12-16 16:59:55 - taggr.maininterface - DEBUG - [app.py:1182] - Initializing tray menu
+2025-12-16 16:59:55 - taggr.maininterface - DEBUG - [app.py:1185] - Initializing main window
+2025-12-16 16:59:55 - taggr.maininterface - DEBUG - [app.py:1188] - Initializing floating control panel
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:55
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:55
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [control_panel.py:239] - API video settings: resolution=1280x720, fps=30
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [control_panel.py:512] - Resolution set from API: 1280x720
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [control_panel.py:537] - FPS set from API: 30
+2025-12-16 16:59:55 - taggr.controlpanel - INFO - [control_panel.py:246] - Floating control panel initialized
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [app.py:1253] - Floating control panel displayed
+2025-12-16 16:59:55 - taggr.maininterface - INFO - [app.py:1191] - MainInterface initialized
+2025-12-16 16:59:55 - taggr - INFO - [logger.py:137] - ⏱ MainInterface init took 0.06s
+2025-12-16 16:59:56 - taggr.maininterface - INFO - [app.py:1305] - Auto-fetch task assignment requested
+2025-12-16 16:59:56 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 16:59:56 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: ubuntuscaler@gmail.com
+2025-12-16 16:59:56 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:87] - ================================================================================
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:56
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:88] - New session started - 2025-12-16 16:59:56
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [logger.py:91] - ================================================================================
+2025-12-16 16:59:56 - taggr.maininterface - INFO - [app.py:1337] - Auto-fetch task assignment started in background (non-blocking)
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [app.py:994] - Requesting task (previous: none, project_id: 1)
+2025-12-16 16:59:56 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 16:59:56 - taggr.auth - INFO - [auth_client.py:789] - Requesting task assignment (previous: none)
+2025-12-16 16:59:56 - taggr - INFO - [logger.py:137] - ⏱ TOTAL STARTUP TIME: 39.98s
+2025-12-16 16:59:56 - taggr - INFO - [logger.py:137] - ============================================================
+2025-12-16 16:59:56 - taggr.main - INFO - [main.py:232] - Control panel is primary UI
+2025-12-16 16:59:56 - taggr.main - INFO - [main.py:255] - Starting application event loop
+2025-12-16 16:59:56 - taggr.auth - INFO - [auth_client.py:826] - Task assigned successfully: ubuntu_vscode_create_markdown_checklist (3591b161-012f-4b4b-8297-11cd4eb0903a)
+2025-12-16 16:59:56 - taggr.task_assignment - INFO - [app.py:1007] - Task assigned: ubuntu_vscode_create_markdown_checklist (3591b161-012f-4b4b-8297-11cd4eb0903a)
+2025-12-16 16:59:56 - taggr.maininterface - INFO - [app.py:1370] - Task assigned: ubuntu_vscode_create_markdown_checklist (3591b161-012f-4b4b-8297-11cd4eb0903a)
+2025-12-16 16:59:56 - taggr.controlpanel - INFO - [control_panel.py:1331] - Task data keys: ['task_id', 'task_uuid', 'task_slug', 'task_instruction', 'operating_system', 'applicant_id', 'project_id', 'attachments', 'qr_code', 'expires_at', 'last_assigned_at', 'created_at', 'updated_at', 'application_id', 'seconds_until_expiry']
+2025-12-16 16:59:56 - taggr.controlpanel - INFO - [control_panel.py:1332] - Task slug: ubuntu_vscode_create_markdown_checklist, QR code URL: None, Seconds until expiry: None
+2025-12-16 16:59:56 - taggr.controlpanel - INFO - [control_panel.py:1349] - No QR code URL in task data, hiding QR code
+2025-12-16 16:59:56 - taggr.controlpanel - INFO - [control_panel.py:1365] - Displaying task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:37
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:37
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:37 - taggr.util - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:58] - open_file() called with path: /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:69] - Absolute path: /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:70] - Path exists: True
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:71] - Is directory: True
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:72] - HAS_QT: True
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:77] - Using direct file manager call with cleaned LD_LIBRARY_PATH...
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:93] - Removing LD_LIBRARY_PATH: /tmp/_MEIIzRqq0
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:101] - Trying nautilus...
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:109] - Command: nautilus /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:110] - LD_LIBRARY_PATH in env: NOT SET
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:118] - nautilus spawned with PID: 42993
+2025-12-16 17:00:37 - taggr.util - WARNING - [util.py:126] - nautilus exited with code: 0
+2025-12-16 17:00:37 - taggr.util - WARNING - [util.py:130] - stderr: ** Message: 17:00:37.553: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:101] - Trying gio...
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:109] - Command: gio open /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:00:37 - taggr.util - DEBUG - [util.py:110] - LD_LIBRARY_PATH in env: NOT SET
+2025-12-16 17:00:37 - taggr.util - INFO - [util.py:118] - gio spawned with PID: 43015
+2025-12-16 17:00:37 - taggr.util - WARNING - [util.py:126] - gio exited with code: 0
+2025-12-16 17:00:37 - taggr.util - ERROR - [util.py:144] - All methods failed to open file/directory
+2025-12-16 17:00:55 - taggr.controlpanel - INFO - [control_panel.py:909] - Start recording requested from control panel
+2025-12-16 17:00:55 - taggr.maininterface - INFO - [app.py:1695] - Starting new recording
+2025-12-16 17:00:55 - taggr.controlpanel - INFO - [control_panel.py:1182] - Control panel showing 'Starting...' state
+2025-12-16 17:00:55 - taggr.maininterface - DEBUG - [app.py:1725] - Natural scrolling (auto-detected): False
+2025-12-16 17:00:55 - taggr.maininterface - INFO - [app.py:1730] - Recording settings: 1280x720 @ 30fps
+2025-12-16 17:00:55 - taggr.maininterface - INFO - [app.py:1739] - Recording for task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [recorder_factory.py:35] - Creating recorder for platform: Linux
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [recorder_factory.py:36] - Resolution: 1280x720, FPS: 30
+2025-12-16 17:00:55 - taggr.recorder.factory - DEBUG - [recorder_factory.py:44] - XDG_SESSION_TYPE: x11
+2025-12-16 17:00:55 - taggr.recorder.factory - DEBUG - [recorder_factory.py:45] - WAYLAND_DISPLAY:
+2025-12-16 17:00:55 - taggr.recorder.factory - DEBUG - [recorder_factory.py:46] - GDK_BACKEND:
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [recorder_factory.py:61] - X11 or unknown session, defaulting to pynput
+2025-12-16 17:00:55 - taggr.recorder.factory - INFO - [recorder_factory.py:78] - Using Recorder (pynput-based)
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.recorder - DEBUG - [recorder.py:653] - Recordings directory: /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:00:55 - taggr.recorder - DEBUG - [recorder.py:662] - Creating recording directory: /home/dell/Documents/Taggr_Recordings/recording-2025-12-16_17-00-55
+2025-12-16 17:00:55 - taggr.recorder - INFO - [recorder.py:62] - Recorder initialized successfully (deferred heavy initialization to thread)
+2025-12-16 17:00:55 - taggr.maininterface - INFO - [app.py:1772] - Recording initialization started
+2025-12-16 17:00:55 - taggr.recorder - WARNING - [recorder.py:377] - Could not adjust process priority: (pid=42951)
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.metadata - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.metadata - DEBUG - [metadata.py:57] - Desktop dimensions via monitor bounding box: 1366x768
+2025-12-16 17:00:55 - taggr.metadata - DEBUG - [metadata.py:119] - Screen: 1366x768, Video: 1280x720
+2025-12-16 17:00:55 - taggr.metadata - DEBUG - [metadata.py:120] - Letterbox mapping: scale=0.9370, pad=(0, 0), scaled_size=1280x720
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:88] - New session started - 2025-12-16 17:00:55
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:196] - Found bundled ffmpeg at: /tmp/_MEIIzRqq0/binaries/ffmpeg
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:197] - ffmpeg permissions: 0o100700
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:205] - Updated ffmpeg permissions to: 0o100711
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:231] - Returning bundled ffmpeg path: /tmp/_MEIIzRqq0/binaries/ffmpeg
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:354] - Using bundled ffmpeg: /tmp/_MEIIzRqq0/binaries/ffmpeg
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:373] - Initializing screen recorder for Linux
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:374] - Target resolution: 1280x720 (1280x720)
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:375] - Target FPS: 30
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:381] - Screen will be captured at native resolution, then scaled to target resolution
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:1142] - Starting Linux screen recording
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:1153] - Display detection - DISPLAY: :0, WAYLAND_DISPLAY: None, XDG_SESSION_TYPE: x11
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:1172] - X11 display server detected (or fallback)
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:1200] - ffmpeg command: /tmp/_MEIIzRqq0/binaries/ffmpeg -f x11grab -framerate 30 -i :0 -vf scale=1280:720:force_original_aspect_ratio=decrease,pad=1280:720:(ow-iw)/2:(oh-ih)/2,showinfo -c:v libx264 -preset ultrafast -pix_fmt yuv420p -y /home/dell/Documents/Taggr_Recordings/recording-2025-12-16_17-00-55/video.mp4
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:1212] - X11 recording started (PID: 43034, target: 1280x720 @ 30fps)
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:1226] - Started video.log writer thread
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:1235] - Started stderr monitoring thread for completion detection and first frame
+2025-12-16 17:00:55 - taggr.screen_recorder - INFO - [screen_recorder.py:427] - ✓ First frame detected at 8093688.304 ms
+2025-12-16 17:00:55 - taggr.screen_recorder - DEBUG - [screen_recorder.py:428] - First frame info: [Parsed_showinfo_2 @ 0x7cabdc010400] n:   0 pts:      0 pts_time:0       duration:  33333 duration_time:0.033333 fmt:yuv420p cl:unspecified sar:0/1 s:1280x720 i:P iskey:1 type:I checksum:31DDD7BF plane_checksum:[4BB4EC8E 68BE9413 4425570F] mean:[163 131 128] stdev:[80.9 6.7 10.6]
+2025-12-16 17:00:57 - taggr.maininterface - INFO - [app.py:2549] - Recording started successfully
+2025-12-16 17:00:57 - taggr.controlpanel - INFO - [control_panel.py:1238] - Hiding control panel during recording
+2025-12-16 17:01:10 - taggr.maininterface - INFO - [app.py:1774] - Stopping recording
+2025-12-16 17:01:10 - taggr.recorder - INFO - [recorder.py:595] - Stopping recording session
+2025-12-16 17:01:10 - taggr.recorder - INFO - [recorder.py:600] - Stop timestamp captured: 8108812.121 ms
+2025-12-16 17:01:10 - taggr.recorder - DEBUG - [recorder.py:607] - Ending metadata collection
+2025-12-16 17:01:10 - taggr.recorder - DEBUG - [recorder.py:613] - Stopping mouse listener
+2025-12-16 17:01:10 - taggr.recorder - DEBUG - [recorder.py:617] - Stopping keyboard listener
+2025-12-16 17:01:10 - taggr.recorder - INFO - [recorder.py:627] - Stopping screen recording
+2025-12-16 17:01:10 - taggr.screen_recorder - INFO - [screen_recorder.py:560] - Stopping screen recording gracefully
+2025-12-16 17:01:10 - taggr.screen_recorder - DEBUG - [screen_recorder.py:592] - Sending 'q' command to ffmpeg stdin
+2025-12-16 17:01:10 - taggr.screen_recorder - INFO - [screen_recorder.py:597] - ✓ Successfully sent quit command via stdin
+2025-12-16 17:01:10 - taggr.screen_recorder - INFO - [screen_recorder.py:723] - Waiting for ffmpeg to finalize video file (monitoring completion markers)...
+2025-12-16 17:01:11 - taggr.recorder - INFO - [recorder.py:528] - Recording session ended. Total events: 266, Filtered: 0
+2025-12-16 17:01:11 - taggr.screen_recorder - DEBUG - [screen_recorder.py:432] - Detected ffmpeg completion marker: [out#0/mp4 @ 0x450d6100] video:2925KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.091562%
+2025-12-16 17:01:11 - taggr.screen_recorder - DEBUG - [screen_recorder.py:452] - stderr monitoring thread finished
+2025-12-16 17:01:11 - taggr.screen_recorder - DEBUG - [screen_recorder.py:473] - video.log writer thread finished
+2025-12-16 17:01:11 - taggr.screen_recorder - INFO - [screen_recorder.py:734] - ✓ Detected ffmpeg completion marker after 0.50s
+2025-12-16 17:01:11 - taggr.screen_recorder - INFO - [screen_recorder.py:738] - ✓ ffmpeg exited gracefully with code: 0
+2025-12-16 17:01:11 - taggr.screen_recorder - DEBUG - [screen_recorder.py:743] - ffmpeg final output:
+[out#0/mp4 @ 0x450d6100] video:2925KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.091562%
+frame=  468 fps= 30 q=-1.0 Lsize=    2927KiB time=00:00:15.60 bitrate=1537.2kbits/s dup=1 drop=0 speed=   1x
+[libx264 @ 0x450d72c0] frame I:2     Avg QP:16.00  size:167074
+[libx264 @ 0x450d72c0] frame P:466   Avg QP:14.92  size:  5708
+[libx264 @ 0x450d72c0] mb I  I16..4: 100.0%  0.0%  0.0%
+[libx264 @ 0x450d72c0] mb P  I16..4:  4.4%  0.0%  0.0%  P16..4:  5.1%  0.0%  0.0%  0.0%  0.0%    skip:90.6%
+[libx264 @ 0x450d72c0] coded y,uvDC,uvAC intra: 36.2% 15.0% 10.2% inter: 2.9% 1.9% 1.2%
+[libx264 @ 0x450d72c0] i16 v,h,dc,p: 50% 43%  4%  3%
+[libx264 @ 0x450d72c0] i8c dc,h,v,p: 68% 18% 13%  1%
+[libx264 @ 0x450d72c0] kb/s:1535.44
+2025-12-16 17:01:11 - taggr.screen_recorder - INFO - [screen_recorder.py:803] - Recording saved to: /home/dell/Documents/Taggr_Recordings/recording-2025-12-16_17-00-55/video.mp4 (2997444 bytes)
+2025-12-16 17:01:11 - taggr.recorder - DEBUG - [recorder.py:631] - Closing events file
+2025-12-16 17:01:11 - taggr.recorder - DEBUG - [recorder.py:637] - Calculating frame synchronization annotations
+2025-12-16 17:01:11 - taggr.recorder - DEBUG - [recorder.py:641] - Saving metadata
+2025-12-16 17:01:11 - taggr.recorder - INFO - [recorder.py:644] - Recording stopped successfully
+2025-12-16 17:01:11 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+2025-12-16 17:01:11 - taggr.maininterface - DEBUG - [app.py:1788] - Recording saved to: /home/dell/Documents/Taggr_Recordings/recording-2025-12-16_17-00-55
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:1801] - Using task_slug for recording: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:1955] - Successfully renamed recording to: /home/dell/Documents/Taggr_Recordings/ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:2068] - Creating zip file: /home/dell/Documents/Taggr_Recordings/ubuntu_vscode_create_markdown_checklist.zip
+2025-12-16 17:01:11 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: ubuntu_vscode_create_markdown_checklist/metadata.json
+2025-12-16 17:01:11 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: ubuntu_vscode_create_markdown_checklist/video.mp4
+2025-12-16 17:01:11 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: ubuntu_vscode_create_markdown_checklist/events.jsonl
+2025-12-16 17:01:11 - taggr.maininterface - DEBUG - [app.py:2082] - Added to zip: ubuntu_vscode_create_markdown_checklist/video.log
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:2084] - Successfully created zip file: /home/dell/Documents/Taggr_Recordings/ubuntu_vscode_create_markdown_checklist.zip
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:1844] - Recording zipped successfully: ubuntu_vscode_create_markdown_checklist.zip
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:1849] - Starting automatic submission for task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:11 - taggr.auth - INFO - [auth_client.py:127] - Loaded persisted session
+2025-12-16 17:01:11 - taggr.auth - DEBUG - [auth_client.py:132] - Restored user: ubuntuscaler@gmail.com
+2025-12-16 17:01:11 - taggr.auth - INFO - [auth_client.py:93] - Initialized AuthClient with base URL: https://taggrops.scaler.com
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:87] - ================================================================================
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-16 17:01:11
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:88] - New session started - 2025-12-16 17:01:11
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:89] - Dev mode: True
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:90] - Logging to file: /home/dell/.local/share/Taggr/logs/taggr.log
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:01:11 - taggr.submission - INFO - [logger.py:91] - ================================================================================
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:2192] - Submission worker started for task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:11 - taggr.submission - INFO - [app.py:703] - Requesting presigned URL for task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:11 - taggr.auth - INFO - [auth_client.py:962] - Requesting presigned URL for task: ubuntu_vscode_create_markdown_checklist, file: ubuntu_vscode_create_markdown_checklist.zip
+2025-12-16 17:01:11 - taggr.controlpanel - INFO - [control_panel.py:1262] - Showing control panel after recording
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Getting upload URL...
+2025-12-16 17:01:11 - taggr.auth - INFO - [auth_client.py:995] - Presigned URL received for task_id: 299597
+2025-12-16 17:01:11 - taggr.submission - INFO - [app.py:715] - Received presigned URL for task_id: 299597
+2025-12-16 17:01:11 - taggr.submission - INFO - [app.py:719] - Uploading file: /home/dell/Documents/Taggr_Recordings/ubuntu_vscode_create_markdown_checklist.zip
+2025-12-16 17:01:11 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Uploading recording to S3...
+2025-12-16 17:01:11 - taggr.auth - INFO - [auth_client.py:1029] - Uploading file to S3: /home/dell/Documents/Taggr_Recordings/ubuntu_vscode_create_markdown_checklist.zip (2.83 MB)
+2025-12-16 17:01:13 - taggr.auth - INFO - [auth_client.py:1048] - ✓ File uploaded successfully to S3
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:722] - Upload to S3 completed successfully
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:726] - Submitting recording for task_id: 299597
+2025-12-16 17:01:13 - taggr.auth - INFO - [auth_client.py:1100] - Submitting recording for task_id: 299597
+2025-12-16 17:01:13 - taggr.maininterface - INFO - [app.py:2203] - Submission progress: Finalizing submission...
+2025-12-16 17:01:13 - taggr.auth - INFO - [auth_client.py:1146] - ✓ Submission successful! ID: 185713
+2025-12-16 17:01:13 - taggr.auth - INFO - [auth_client.py:1153] - Quality checks: 15 passed, 0 failed
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:933] - Simple checks passed for submission 185713; continuing deep checks in background.
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:765] - Starting polling for submission 185713 (status=checks_running, interval=5s, max_polls=300)
+2025-12-16 17:01:13 - taggr.maininterface - INFO - [app.py:2339] - Simple checks passed; continuing deep checks in background.
+2025-12-16 17:01:13 - taggr.maininterface - INFO - [app.py:2285] - Submission result (initial) for task: ubuntu_vscode_create_markdown_checklist
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:810] - Poll timer started for submission 185713
+2025-12-16 17:01:13 - taggr.maininterface - INFO - [app.py:2290] - Stored current submission_id: 185713
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 1/300)
+2025-12-16 17:01:13 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:13 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:18 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 2/300)
+2025-12-16 17:01:18 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:18 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:24 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 3/300)
+2025-12-16 17:01:24 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:24 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:29 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 4/300)
+2025-12-16 17:01:29 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:29 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:34 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 5/300)
+2025-12-16 17:01:34 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:34 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:39 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 6/300)
+2025-12-16 17:01:39 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:39 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:44 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 7/300)
+2025-12-16 17:01:44 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:44 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:49 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 8/300)
+2025-12-16 17:01:49 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:49 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:54 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 9/300)
+2025-12-16 17:01:54 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:54 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:01:59 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 10/300)
+2025-12-16 17:01:59 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:01:59 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:02:04 - taggr.submission - INFO - [app.py:826] - Polling submission 185713 (attempt 11/300)
+2025-12-16 17:02:04 - taggr.auth - INFO - [auth_client.py:1174] - Fetching submission details for ID: 185713
+2025-12-16 17:02:04 - taggr.submission - INFO - [app.py:834] - Poll result for submission 185713: status=checks_running, completed=15/17
+2025-12-16 17:02:05 - taggr.maininterface - INFO - [app.py:2317] - Submission dialog closed by user; stopping deep check polling.
+QObject::killTimer: Timers cannot be stopped from another thread
+2025-12-16 17:02:05 - taggr.controlpanel - INFO - [control_panel.py:1721] - Cleared task display
+2025-12-16 17:02:05 - taggr.maininterface - INFO - [app.py:2302] - Cleared current task context after submission.
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:58] - open_file() called with path: /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:69] - Absolute path: /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:70] - Path exists: True
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:71] - Is directory: True
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:72] - HAS_QT: True
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:77] - Using direct file manager call with cleaned LD_LIBRARY_PATH...
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:93] - Removing LD_LIBRARY_PATH: /tmp/_MEIIzRqq0
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:101] - Trying nautilus...
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:109] - Command: nautilus /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:110] - LD_LIBRARY_PATH in env: NOT SET
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:118] - nautilus spawned with PID: 43370
+2025-12-16 17:02:13 - taggr.util - WARNING - [util.py:126] - nautilus exited with code: 0
+2025-12-16 17:02:13 - taggr.util - WARNING - [util.py:130] - stderr: ** Message: 17:02:13.370: Connecting to org.freedesktop.Tracker3.Miner.Files
+
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:101] - Trying gio...
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:109] - Command: gio open /home/dell/Documents/Taggr_Recordings
+2025-12-16 17:02:13 - taggr.util - DEBUG - [util.py:110] - LD_LIBRARY_PATH in env: NOT SET
+2025-12-16 17:02:13 - taggr.util - INFO - [util.py:118] - gio spawned with PID: 43382
+2025-12-16 17:02:13 - taggr.util - WARNING - [util.py:126] - gio exited with code: 0
+2025-12-16 17:02:13 - taggr.util - ERROR - [util.py:144] - All methods failed to open file/directory
+2025-12-16 17:12:00 - taggr.maininterface - INFO - [app.py:1675] - Quitting application
+2025-12-16 17:12:00 - taggr.maininterface - INFO - [app.py:1683] - Closing control panel
+2025-12-16 17:12:00 - taggr.maininterface - INFO - [app.py:1686] - Exiting application
+2025-12-16 17:12:00 - taggr.main - INFO - [main.py:257] - Application exiting with code: 0
+2025-12-16 17:12:00 - taggr.single_instance - INFO - [single_instance.py:141] - Lock file removed: /run/user/1000/.taggr.lock
+2025-12-16 17:12:00 - taggr.main - INFO - [main.py:261] - Single instance lock released
+QObject::~QObject: Timers cannot be stopped from another thread
+dell@dell-Latitude-3420:~/taggr/dist$ cd ~
