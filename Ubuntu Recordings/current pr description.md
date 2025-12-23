@@ -59,6 +59,35 @@ Added `self.update_current_frame_index(frame_index)` call to update the shared f
   - Click 3 @ 12.43s: Expected (1784, 11) → Detected (1791, 15) - Distance: 8.4px ✅
   - Click 4 @ 13.99s: Expected (1786, 77) → Detected (1810, 104) - Distance: 36.1px ✅
 
+### After - 5 Minute Stress Test (Submission 223,504)
+
+**Test Scenario:**
+- Duration: ~6 minutes (357.73 seconds)
+- Fast typing bursts with random clicks
+- Realistic task simulation with high event volume
+- 896,368 bytes of events (much larger than typical submissions)
+
+**Deep Check Results:**
+- ✅ `python_system_config_checks`: **PASSED**
+- `gap_max_actions_per_frame`: **5** (threshold: 12) ✅
+- `actual_match` (cursor): **1.0** (100%) ✅
+- `cursor_matches`: **172** clicks verified
+- `cursor_mismatches`: **0**
+- `cursor_not_detected`: **0**
+- `keypress_total_pairs`: **464** pairs analyzed
+- `keypress_verification_rate`: **0.8635** (86.35%) ✅
+
+**All Simple Checks:**
+- ✅ All 16 simple checks passed
+- Video quality, FPS, duration, and file validation all passed
+
+**Key Findings:**
+- Frame index tracking remains accurate even under heavy load
+- Gap detection correctly identifies frame distribution (max 5 actions per frame, well below threshold)
+- Cursor verification maintains 100% accuracy across 172 clicks
+- Keypress verification rate of 86.35% is within acceptable range for fast typing scenarios
+- No performance degradation or frame index drift over extended recording duration
+
 ### Impact
 
 - ✅ Eliminates false positives in gap detection
@@ -72,3 +101,8 @@ Added `self.update_current_frame_index(frame_index)` call to update the shared f
 - [x] Confirmed deep checks pass with corrected frame indices
 - [x] Validated cursor verification results are legitimate
 - [x] Tested backward compatibility with existing submissions
+- [x] **5-minute stress test**: Extended recording with fast typing bursts and random clicks
+  - 172 cursor verifications with 100% accuracy
+  - 464 keypress pairs analyzed
+  - Gap detection correctly handles high event volume (max 5 actions/frame)
+  - All checks passed under realistic heavy load conditions
