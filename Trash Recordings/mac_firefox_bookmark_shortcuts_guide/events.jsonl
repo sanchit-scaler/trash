@@ -1,0 +1,174 @@
+{"time_stamp_ms": 8601980.356278, "frame_index": -1, "action": "move", "x": 808.0, "y": 299.0, "second_in_video": 3.4423891949988903}
+{"time_stamp_ms": 8601998.243755002, "frame_index": -1, "action": "move", "x": 795.0, "y": 299.0, "second_in_video": 3.4602766720000653}
+{"time_stamp_ms": 8602020.202404002, "frame_index": -1, "action": "move", "x": 741.0, "y": 305.0, "second_in_video": 3.4822353210002186}
+{"time_stamp_ms": 8602036.228664, "frame_index": -1, "action": "move", "x": 695.0, "y": 312.0, "second_in_video": 3.498261580998078}
+{"time_stamp_ms": 8602060.172226, "frame_index": -1, "action": "move", "x": 629.0, "y": 319.0, "second_in_video": 3.5222051429990677}
+{"time_stamp_ms": 8602076.415283, "frame_index": -1, "action": "move", "x": 591.0, "y": 327.0, "second_in_video": 3.5384481999985873}
+{"time_stamp_ms": 8602100.235569, "frame_index": -1, "action": "move", "x": 518.0, "y": 347.0, "second_in_video": 3.562268485998735}
+{"time_stamp_ms": 8602124.106982, "frame_index": -1, "action": "move", "x": 455.0, "y": 362.0, "second_in_video": 3.586139898998663}
+{"time_stamp_ms": 8602140.148607, "frame_index": -1, "action": "move", "x": 412.0, "y": 378.0, "second_in_video": 3.6021815239991994}
+{"time_stamp_ms": 8602156.174238, "frame_index": -1, "action": "move", "x": 369.0, "y": 388.0, "second_in_video": 3.6182071549985557}
+{"time_stamp_ms": 8602172.249668, "frame_index": -1, "action": "move", "x": 331.0, "y": 396.0, "second_in_video": 3.634282584998757}
+{"time_stamp_ms": 8602198.317971999, "frame_index": -1, "action": "move", "x": 302.0, "y": 401.0, "second_in_video": 3.6603508889973164}
+{"time_stamp_ms": 8602220.158095, "frame_index": -1, "action": "move", "x": 290.0, "y": 405.0, "second_in_video": 3.6821910119988024}
+{"time_stamp_ms": 8602236.185751, "frame_index": -1, "action": "move", "x": 281.0, "y": 406.0, "second_in_video": 3.6982186679989097}
+{"time_stamp_ms": 8602252.293798, "frame_index": -1, "action": "move", "x": 273.0, "y": 406.0, "second_in_video": 3.714326714998111}
+{"time_stamp_ms": 8602276.227861999, "frame_index": -1, "action": "move", "x": 265.0, "y": 406.0, "second_in_video": 3.7382607789970934}
+{"time_stamp_ms": 8602300.221223, "frame_index": -1, "action": "move", "x": 262.0, "y": 407.0, "second_in_video": 3.7622541399989275}
+{"time_stamp_ms": 8602316.250206001, "frame_index": -1, "action": "move", "x": 255.0, "y": 408.0, "second_in_video": 3.7782831229995937}
+{"time_stamp_ms": 8602332.255722, "frame_index": -1, "action": "move", "x": 248.0, "y": 408.0, "second_in_video": 3.794288638997823}
+{"time_stamp_ms": 8602508.413825, "frame_index": -1, "action": "click", "x": 244.0, "y": 410.0, "button": "left", "pressed": true, "second_in_video": 3.9704467419981957}
+{"time_stamp_ms": 8602636.168792, "frame_index": -1, "action": "click", "x": 244.0, "y": 410.0, "button": "left", "pressed": false, "second_in_video": 4.098201708998531}
+{"time_stamp_ms": 8602652.243663, "frame_index": -1, "action": "move", "x": 244.0, "y": 409.0, "second_in_video": 4.1142765799984335}
+{"time_stamp_ms": 8602724.178977, "frame_index": -1, "action": "move", "x": 244.0, "y": 409.0, "second_in_video": 4.186211893998086}
+{"time_stamp_ms": 8602740.26467, "frame_index": -1, "action": "move", "x": 244.0, "y": 408.0, "second_in_video": 4.202297586997971}
+{"time_stamp_ms": 8602772.381438999, "frame_index": -1, "action": "move", "x": 245.0, "y": 404.0, "second_in_video": 4.2344143559969964}
+{"time_stamp_ms": 8602798.893949, "frame_index": -1, "action": "move", "x": 247.0, "y": 397.0, "second_in_video": 4.260926865998655}
+{"time_stamp_ms": 8602820.187044, "frame_index": -1, "action": "move", "x": 250.0, "y": 386.0, "second_in_video": 4.282219960998744}
+{"time_stamp_ms": 8602836.285658, "frame_index": -1, "action": "move", "x": 251.0, "y": 376.0, "second_in_video": 4.298318574998528}
+{"time_stamp_ms": 8602860.25401, "frame_index": -1, "action": "move", "x": 254.0, "y": 358.0, "second_in_video": 4.322286926997825}
+{"time_stamp_ms": 8602884.258400999, "frame_index": -1, "action": "move", "x": 257.0, "y": 342.0, "second_in_video": 4.3462913179975}
+{"time_stamp_ms": 8602900.298975, "frame_index": -1, "action": "move", "x": 260.0, "y": 332.0, "second_in_video": 4.3623318919986485}
+{"time_stamp_ms": 8602924.170661999, "frame_index": -1, "action": "move", "x": 262.0, "y": 322.0, "second_in_video": 4.386203578997403}
+{"time_stamp_ms": 8602940.273397, "frame_index": -1, "action": "move", "x": 263.0, "y": 317.0, "second_in_video": 4.402306313998997}
+{"time_stamp_ms": 8602965.200365001, "frame_index": -1, "action": "move", "x": 265.0, "y": 315.0, "second_in_video": 4.427233281999826}
+{"time_stamp_ms": 8603036.455865, "frame_index": -1, "action": "click", "x": 265.0, "y": 315.0, "button": "left", "pressed": true, "second_in_video": 4.498488781997934}
+{"time_stamp_ms": 8603172.237062, "frame_index": -1, "action": "click", "x": 265.0, "y": 315.0, "button": "left", "pressed": false, "second_in_video": 4.634269978998229}
+{"time_stamp_ms": 8603260.274606, "frame_index": -1, "action": "move", "x": 267.0, "y": 314.0, "second_in_video": 4.722307522999123}
+{"time_stamp_ms": 8603284.348073, "frame_index": -1, "action": "move", "x": 310.0, "y": 311.0, "second_in_video": 4.746380989998579}
+{"time_stamp_ms": 8603308.334794, "frame_index": -1, "action": "move", "x": 443.0, "y": 311.0, "second_in_video": 4.770367710998282}
+{"time_stamp_ms": 8603332.439831, "frame_index": -1, "action": "move", "x": 633.0, "y": 311.0, "second_in_video": 4.794472747998312}
+{"time_stamp_ms": 8603356.353145, "frame_index": -1, "action": "move", "x": 890.0, "y": 311.0, "second_in_video": 4.818386061998084}
+{"time_stamp_ms": 8603380.300404, "frame_index": -1, "action": "move", "x": 1147.0, "y": 311.0, "second_in_video": 4.842333320997655}
+{"time_stamp_ms": 8603398.312830001, "frame_index": -1, "action": "move", "x": 1298.0, "y": 300.0, "second_in_video": 4.860345746999607}
+{"time_stamp_ms": 8603420.295150999, "frame_index": -1, "action": "move", "x": 1459.0, "y": 275.0, "second_in_video": 4.88232806799747}
+{"time_stamp_ms": 8603436.37819, "frame_index": -1, "action": "move", "x": 1525.0, "y": 263.0, "second_in_video": 4.8984111069981005}
+{"time_stamp_ms": 8603460.204967, "frame_index": -1, "action": "move", "x": 1564.0, "y": 250.0, "second_in_video": 4.922237883998081}
+{"time_stamp_ms": 8603484.305674, "frame_index": -1, "action": "move", "x": 1568.0, "y": 246.0, "second_in_video": 4.946338590998202}
+{"time_stamp_ms": 8603524.320885, "frame_index": -1, "action": "move", "x": 1568.0, "y": 245.0, "second_in_video": 4.9863538019992415}
+{"time_stamp_ms": 8603548.319060002, "frame_index": -1, "action": "move", "x": 1572.0, "y": 240.0, "second_in_video": 5.010351977000013}
+{"time_stamp_ms": 8603565.283049, "frame_index": -1, "action": "move", "x": 1574.0, "y": 233.0, "second_in_video": 5.027315965998918}
+{"time_stamp_ms": 8603588.420808999, "frame_index": -1, "action": "move", "x": 1580.0, "y": 222.0, "second_in_video": 5.050453725997358}
+{"time_stamp_ms": 8603612.332098, "frame_index": -1, "action": "move", "x": 1587.0, "y": 206.0, "second_in_video": 5.074365014998242}
+{"time_stamp_ms": 8603628.678171001, "frame_index": -1, "action": "move", "x": 1596.0, "y": 186.0, "second_in_video": 5.090711087999866}
+{"time_stamp_ms": 8603652.266638001, "frame_index": -1, "action": "move", "x": 1622.0, "y": 159.0, "second_in_video": 5.114299554999918}
+{"time_stamp_ms": 8603668.293313, "frame_index": -1, "action": "move", "x": 1639.0, "y": 140.0, "second_in_video": 5.1303262299988415}
+{"time_stamp_ms": 8603692.189584998, "frame_index": -1, "action": "move", "x": 1658.0, "y": 118.0, "second_in_video": 5.154222501996904}
+{"time_stamp_ms": 8603708.319908999, "frame_index": -1, "action": "move", "x": 1669.0, "y": 107.0, "second_in_video": 5.170352825997397}
+{"time_stamp_ms": 8603724.327865, "frame_index": -1, "action": "move", "x": 1690.0, "y": 91.0, "second_in_video": 5.186360781999305}
+{"time_stamp_ms": 8603748.349643, "frame_index": -1, "action": "move", "x": 1727.0, "y": 63.0, "second_in_video": 5.210382559997961}
+{"time_stamp_ms": 8603764.381901002, "frame_index": -1, "action": "move", "x": 1744.0, "y": 50.0, "second_in_video": 5.226414818000048}
+{"time_stamp_ms": 8603780.451597, "frame_index": -1, "action": "move", "x": 1748.0, "y": 45.0, "second_in_video": 5.242484513998032}
+{"time_stamp_ms": 8603812.331934, "frame_index": -1, "action": "move", "x": 1751.0, "y": 43.0, "second_in_video": 5.274364850997925}
+{"time_stamp_ms": 8603830.726195, "frame_index": -1, "action": "move", "x": 1756.0, "y": 42.0, "second_in_video": 5.292759111998603}
+{"time_stamp_ms": 8603852.251519, "frame_index": -1, "action": "move", "x": 1763.0, "y": 38.0, "second_in_video": 5.3142844359986485}
+{"time_stamp_ms": 8604036.394520001, "frame_index": -1, "action": "move", "x": 1763.0, "y": 41.0, "second_in_video": 5.498427436999977}
+{"time_stamp_ms": 8604060.255096, "frame_index": -1, "action": "move", "x": 1757.0, "y": 52.0, "second_in_video": 5.522288012998178}
+{"time_stamp_ms": 8604084.331282, "frame_index": -1, "action": "move", "x": 1752.0, "y": 62.0, "second_in_video": 5.546364198997617}
+{"time_stamp_ms": 8604228.915656, "frame_index": -1, "action": "click", "x": 1752.0, "y": 62.0, "button": "left", "pressed": true, "second_in_video": 5.690948572998867}
+{"time_stamp_ms": 8604334.369967, "frame_index": -1, "action": "click", "x": 1752.0, "y": 62.0, "button": "left", "pressed": false, "second_in_video": 5.79640288399905}
+{"time_stamp_ms": 8604676.685949, "frame_index": -1, "action": "move", "x": 1748.0, "y": 63.0, "second_in_video": 6.138718865998089}
+{"time_stamp_ms": 8604700.783717, "frame_index": -1, "action": "move", "x": 1737.0, "y": 77.0, "second_in_video": 6.1628166339993475}
+{"time_stamp_ms": 8604724.316722, "frame_index": -1, "action": "move", "x": 1715.0, "y": 108.0, "second_in_video": 6.186349638998508}
+{"time_stamp_ms": 8604740.641136, "frame_index": -1, "action": "move", "x": 1699.0, "y": 131.0, "second_in_video": 6.2026740529984234}
+{"time_stamp_ms": 8604766.047925001, "frame_index": -1, "action": "move", "x": 1669.0, "y": 181.0, "second_in_video": 6.228080841999501}
+{"time_stamp_ms": 8604788.437221, "frame_index": -1, "action": "move", "x": 1642.0, "y": 248.0, "second_in_video": 6.2504701379984615}
+{"time_stamp_ms": 8604804.457881, "frame_index": -1, "action": "move", "x": 1622.0, "y": 290.0, "second_in_video": 6.266490797998384}
+{"time_stamp_ms": 8604830.848080998, "frame_index": -1, "action": "move", "x": 1603.0, "y": 329.0, "second_in_video": 6.292880997996777}
+{"time_stamp_ms": 8604852.34197, "frame_index": -1, "action": "move", "x": 1598.0, "y": 344.0, "second_in_video": 6.314374886998907}
+{"time_stamp_ms": 8604868.381558001, "frame_index": -1, "action": "move", "x": 1597.0, "y": 348.0, "second_in_video": 6.330414474999532}
+{"time_stamp_ms": 8604940.756075, "frame_index": -1, "action": "click", "x": 1597.0, "y": 350.0, "button": "left", "pressed": true, "second_in_video": 6.402788991998881}
+{"time_stamp_ms": 8605052.390417, "frame_index": -1, "action": "click", "x": 1597.0, "y": 350.0, "button": "left", "pressed": false, "second_in_video": 6.51442333399877}
+{"time_stamp_ms": 8605156.501593, "frame_index": -1, "action": "move", "x": 1596.0, "y": 353.0, "second_in_video": 6.618534509997815}
+{"time_stamp_ms": 8605180.396667, "frame_index": -1, "action": "move", "x": 1590.0, "y": 384.0, "second_in_video": 6.642429583998397}
+{"time_stamp_ms": 8605198.3391, "frame_index": -1, "action": "move", "x": 1583.0, "y": 407.0, "second_in_video": 6.660372016998008}
+{"time_stamp_ms": 8605220.356264, "frame_index": -1, "action": "move", "x": 1574.0, "y": 433.0, "second_in_video": 6.682389180999249}
+{"time_stamp_ms": 8605236.418901, "frame_index": -1, "action": "move", "x": 1568.0, "y": 448.0, "second_in_video": 6.698451817998663}
+{"time_stamp_ms": 8605260.354974, "frame_index": -1, "action": "move", "x": 1562.0, "y": 459.0, "second_in_video": 6.722387890998274}
+{"time_stamp_ms": 8605324.423089, "frame_index": -1, "action": "click", "x": 1562.0, "y": 459.0, "button": "left", "pressed": true, "second_in_video": 6.786456005997956}
+{"time_stamp_ms": 8605420.383408, "frame_index": -1, "action": "click", "x": 1562.0, "y": 459.0, "button": "left", "pressed": false, "second_in_video": 6.882416324999183}
+{"time_stamp_ms": 8605460.383654999, "frame_index": -1, "action": "move", "x": 1561.0, "y": 460.0, "second_in_video": 6.922416571997106}
+{"time_stamp_ms": 8605476.417516, "frame_index": -1, "action": "move", "x": 1556.0, "y": 470.0, "second_in_video": 6.938450432999059}
+{"time_stamp_ms": 8605500.404016, "frame_index": -1, "action": "move", "x": 1543.0, "y": 491.0, "second_in_video": 6.962436932997778}
+{"time_stamp_ms": 8605524.262073, "frame_index": -1, "action": "move", "x": 1535.0, "y": 504.0, "second_in_video": 6.986294989999384}
+{"time_stamp_ms": 8605540.379817, "frame_index": -1, "action": "move", "x": 1535.0, "y": 505.0, "second_in_video": 7.00241273399815}
+{"time_stamp_ms": 8605598.346454, "frame_index": -1, "action": "click", "x": 1535.0, "y": 505.0, "button": "left", "pressed": true, "second_in_video": 7.060379370998591}
+{"time_stamp_ms": 8605708.601574998, "frame_index": -1, "action": "click", "x": 1535.0, "y": 505.0, "button": "left", "pressed": false, "second_in_video": 7.170634491996839}
+{"time_stamp_ms": 8605924.290823001, "frame_index": -1, "action": "move", "x": 1535.0, "y": 505.0, "second_in_video": 7.386323739999905}
+{"time_stamp_ms": 8605940.399275, "frame_index": -1, "action": "move", "x": 1535.0, "y": 506.0, "second_in_video": 7.402432191997766}
+{"time_stamp_ms": 8605988.412983999, "frame_index": -1, "action": "move", "x": 1535.0, "y": 507.0, "second_in_video": 7.450445900997147}
+{"time_stamp_ms": 8606036.327024, "frame_index": -1, "action": "move", "x": 1534.0, "y": 507.0, "second_in_video": 7.498359940998256}
+{"time_stamp_ms": 8606660.472414, "frame_index": -1, "action": "press", "name": "cmd", "second_in_video": 8.12250533099845}
+{"time_stamp_ms": 8606726.122702999, "frame_index": -1, "action": "release", "name": "cmd", "second_in_video": 8.18815561999753}
+{"time_stamp_ms": 8608466.510607999, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 9.928543524997309}
+{"time_stamp_ms": 8608603.794565, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 10.06582748199813}
+{"time_stamp_ms": 8608658.245051, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 10.120277967998758}
+{"time_stamp_ms": 8608752.370763998, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 10.21440368099697}
+{"time_stamp_ms": 8608794.850942, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 10.256883858999238}
+{"time_stamp_ms": 8608905.982722001, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 10.36801563899964}
+{"time_stamp_ms": 8608955.500359999, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 10.417533276997506}
+{"time_stamp_ms": 8609042.7359, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 10.504768816998228}
+{"time_stamp_ms": 8609086.257599, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 10.548290515998378}
+{"time_stamp_ms": 8609205.966978999, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 10.667999895997346}
+{"time_stamp_ms": 8609208.206891, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 10.670239807998762}
+{"time_stamp_ms": 8609297.831392, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 10.759864308997988}
+{"time_stamp_ms": 8609365.483310001, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 10.827516226999462}
+{"time_stamp_ms": 8609476.424763, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 10.93845767999813}
+{"time_stamp_ms": 8609480.501516, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 10.942534432997927}
+{"time_stamp_ms": 8609560.853254002, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 11.022886171000078}
+{"time_stamp_ms": 8609635.366484001, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 11.09739940099977}
+{"time_stamp_ms": 8609714.666295, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 11.176699211997912}
+{"time_stamp_ms": 8609730.916099, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 11.192949015999213}
+{"time_stamp_ms": 8609794.369512, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 11.256402428997681}
+{"time_stamp_ms": 8609845.413798999, "frame_index": -1, "action": "press", "name": "v", "second_in_video": 11.307446715997532}
+{"time_stamp_ms": 8609920.033664001, "frame_index": -1, "action": "press", "name": "h", "second_in_video": 11.382066580999643}
+{"time_stamp_ms": 8609933.079142, "frame_index": -1, "action": "release", "name": "v", "second_in_video": 11.395112058999016}
+{"time_stamp_ms": 8609991.267748998, "frame_index": -1, "action": "release", "name": "h", "second_in_video": 11.453300665996968}
+{"time_stamp_ms": 8610501.088933, "frame_index": -1, "action": "press", "name": "cmd", "second_in_video": 11.963121849998831}
+{"time_stamp_ms": 8610569.526307, "frame_index": -1, "action": "release", "name": "cmd", "second_in_video": 12.031559223998338}
+{"time_stamp_ms": 8610636.638172, "frame_index": -1, "action": "move", "x": 1535.0, "y": 508.0, "second_in_video": 12.098671088999136}
+{"time_stamp_ms": 8610660.537479, "frame_index": -1, "action": "move", "x": 1537.0, "y": 505.0, "second_in_video": 12.122570395998657}
+{"time_stamp_ms": 8610812.796845999, "frame_index": -1, "action": "move", "x": 1536.0, "y": 504.0, "second_in_video": 12.274829762997106}
+{"time_stamp_ms": 8610924.632329, "frame_index": -1, "action": "move", "x": 1536.0, "y": 503.0, "second_in_video": 12.386665245998651}
+{"time_stamp_ms": 8610940.706958, "frame_index": -1, "action": "move", "x": 1539.0, "y": 500.0, "second_in_video": 12.402739874998108}
+{"time_stamp_ms": 8610956.721381001, "frame_index": -1, "action": "move", "x": 1541.0, "y": 499.0, "second_in_video": 12.418754297999666}
+{"time_stamp_ms": 8610997.140291, "frame_index": -1, "action": "move", "x": 1544.0, "y": 492.0, "second_in_video": 12.459173207998276}
+{"time_stamp_ms": 8611020.738354, "frame_index": -1, "action": "move", "x": 1589.0, "y": 479.0, "second_in_video": 12.482771270997823}
+{"time_stamp_ms": 8611044.659169, "frame_index": -1, "action": "move", "x": 1600.0, "y": 470.0, "second_in_video": 12.506692085998132}
+{"time_stamp_ms": 8611068.679092001, "frame_index": -1, "action": "move", "x": 1630.0, "y": 396.0, "second_in_video": 12.53071200899966}
+{"time_stamp_ms": 8611092.609056, "frame_index": -1, "action": "move", "x": 1669.0, "y": 265.0, "second_in_video": 12.554641972998157}
+{"time_stamp_ms": 8611109.052743, "frame_index": -1, "action": "move", "x": 1692.0, "y": 178.0, "second_in_video": 12.571085659999401}
+{"time_stamp_ms": 8611132.651016, "frame_index": -1, "action": "move", "x": 1700.0, "y": 113.0, "second_in_video": 12.59468393299915}
+{"time_stamp_ms": 8611148.732629001, "frame_index": -1, "action": "move", "x": 1709.0, "y": 51.0, "second_in_video": 12.610765545999632}
+{"time_stamp_ms": 8611166.334895998, "frame_index": -1, "action": "move", "x": 1711.0, "y": 6.0, "second_in_video": 12.62836781299673}
+{"time_stamp_ms": 8611188.615343, "frame_index": -1, "action": "move", "x": 1714.0, "y": 0.0, "second_in_video": 12.650648259999231}
+{"time_stamp_ms": 8611212.591265, "frame_index": -1, "action": "move", "x": 1716.0, "y": 0.0, "second_in_video": 12.674624181998894}
+{"time_stamp_ms": 8611236.487773, "frame_index": -1, "action": "move", "x": 1717.0, "y": 0.0, "second_in_video": 12.698520689997823}
+{"time_stamp_ms": 8611252.519658001, "frame_index": -1, "action": "move", "x": 1718.0, "y": 0.0, "second_in_video": 12.714552574999631}
+{"time_stamp_ms": 8611268.699123, "frame_index": -1, "action": "move", "x": 1721.0, "y": 0.0, "second_in_video": 12.730732039999216}
+{"time_stamp_ms": 8611292.704589, "frame_index": -1, "action": "move", "x": 1722.0, "y": 0.0, "second_in_video": 12.754737505998463}
+{"time_stamp_ms": 8611356.58767, "frame_index": -1, "action": "move", "x": 1723.0, "y": 0.0, "second_in_video": 12.81862058699876}
+{"time_stamp_ms": 8611372.699387, "frame_index": -1, "action": "move", "x": 1727.0, "y": 0.0, "second_in_video": 12.834732303999365}
+{"time_stamp_ms": 8611397.72535, "frame_index": -1, "action": "move", "x": 1732.0, "y": 0.0, "second_in_video": 12.859758266998455}
+{"time_stamp_ms": 8611420.604155, "frame_index": -1, "action": "move", "x": 1742.0, "y": 3.0, "second_in_video": 12.88263707199879}
+{"time_stamp_ms": 8611436.642185, "frame_index": -1, "action": "move", "x": 1748.0, "y": 4.0, "second_in_video": 12.898675101999194}
+{"time_stamp_ms": 8611460.681455001, "frame_index": -1, "action": "move", "x": 1759.0, "y": 6.0, "second_in_video": 12.922714371999726}
+{"time_stamp_ms": 8611484.559176, "frame_index": -1, "action": "move", "x": 1769.0, "y": 7.0, "second_in_video": 12.946592092998326}
+{"time_stamp_ms": 8611503.573837, "frame_index": -1, "action": "move", "x": 1775.0, "y": 7.0, "second_in_video": 12.965606753999367}
+{"time_stamp_ms": 8611524.914318, "frame_index": -1, "action": "move", "x": 1789.0, "y": 10.0, "second_in_video": 12.986947234999388}
+{"time_stamp_ms": 8611548.852314, "frame_index": -1, "action": "move", "x": 1797.0, "y": 10.0, "second_in_video": 13.010885230997577}
+{"time_stamp_ms": 8611788.838928, "frame_index": -1, "action": "click", "x": 1797.0, "y": 10.0, "button": "left", "pressed": true, "second_in_video": 13.25087184499763}
+{"time_stamp_ms": 8611868.667758001, "frame_index": -1, "action": "click", "x": 1797.0, "y": 10.0, "button": "left", "pressed": false, "second_in_video": 13.330700674999505}
+{"time_stamp_ms": 8612284.704829998, "frame_index": -1, "action": "move", "x": 1796.0, "y": 10.0, "second_in_video": 13.746737746996805}
+{"time_stamp_ms": 8612684.597502, "frame_index": -1, "action": "move", "x": 1795.0, "y": 11.0, "second_in_video": 14.14663041899912}
+{"time_stamp_ms": 8612700.667937001, "frame_index": -1, "action": "move", "x": 1791.0, "y": 29.0, "second_in_video": 14.162700853999704}
+{"time_stamp_ms": 8612724.691487, "frame_index": -1, "action": "move", "x": 1778.0, "y": 70.0, "second_in_video": 14.186724403997884}
+{"time_stamp_ms": 8612748.695055999, "frame_index": -1, "action": "move", "x": 1772.0, "y": 84.0, "second_in_video": 14.210727972997352}
+{"time_stamp_ms": 8613165.213614, "frame_index": -1, "action": "move", "x": 1772.0, "y": 83.0, "second_in_video": 14.627246530998498}
+{"time_stamp_ms": 8613188.671559, "frame_index": -1, "action": "move", "x": 1772.0, "y": 80.0, "second_in_video": 14.650704475998879}
+{"time_stamp_ms": 8613268.661502, "frame_index": -1, "action": "move", "x": 1772.0, "y": 79.0, "second_in_video": 14.730694418998436}
+{"time_stamp_ms": 8613340.773904, "frame_index": -1, "action": "move", "x": 1771.0, "y": 78.0, "second_in_video": 14.802806820997969}
+{"time_stamp_ms": 8613365.677768001, "frame_index": -1, "action": "move", "x": 1771.0, "y": 76.0, "second_in_video": 14.827710684999824}
+{"time_stamp_ms": 8613398.350076001, "frame_index": -1, "action": "move", "x": 1771.0, "y": 74.0, "second_in_video": 14.860382992999629}
+{"time_stamp_ms": 8613566.157706, "frame_index": -1, "action": "click", "x": 1771.0, "y": 74.0, "button": "left", "pressed": true, "second_in_video": 15.028190622998402}
+{"time_stamp_ms": 8613668.700620001, "frame_index": -1, "action": "click", "x": 1771.0, "y": 74.0, "button": "left", "pressed": false, "second_in_video": 15.130733536999672}
